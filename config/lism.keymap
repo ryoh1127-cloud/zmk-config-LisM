@@ -103,6 +103,16 @@
             key-positions = <10 11>;
             timeout-ms = <100>;
         };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
