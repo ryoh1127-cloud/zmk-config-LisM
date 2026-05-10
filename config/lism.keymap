@@ -75,7 +75,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "new_behavior";
             #binding-cells = <0>;
-            bindings = <&lt 2 LANGUAGE_1>, <&kp LANGUAGE_2>;
+            bindings = <&lt 1 LANGUAGE_1>, <&kp LANGUAGE_2>;
         };
     };
 
@@ -95,15 +95,25 @@
             display-name = "Default Layer";
             bindings = <
 &kp Q             &kp W         &kp E             &kp R            &kp T                                        &kp Y        &kp U           &kp I        &kp O        &kp P
-&mt LEFT_GUI A    &kp S         &kp D             &lt 2 F          &kp G                                        &kp H        &lt 2 J         &kp K        &kp L        &lt 5 MINUS
+&mt LEFT_GUI A    &kp S         &kp D             &lt 1 F          &kp G                                        &kp H        &lt 1 J         &kp K        &kp L        &lt 5 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V            &kp B                                        &kp N        &kp M           &kp COMMA    &kp DOT      &mt RIGHT_SHIFT SLASH
-&kp LEFT_GUI      &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LCTRL SPACE  &lt 3 SPACE  &new_behavior    &kp BACKSPACE  &lt 1 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
+&kp LEFT_GUI      &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LCTRL SPACE  &lt 3 SPACE  &new_behavior    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_1 {
+            display-name = "Mark Layer";
+            bindings = <
+&kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
+&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp LCTRL      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
+&mt LEFT_SHIFT MINUS  &kp F17        &kp AT_SIGN   &kp HASH       &kp TAB                             &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
+&trans                &trans         &trans        &trans         &trans            &trans    &trans  &trans            &trans                &trans                 &trans                &trans
+            >;
+        };
+
+        layer_2 {
             display-name = "Number Layer";
             bindings = <
 &trans  &kp N7  &kp N8  &kp N9  &kp PLUS                     &kp KP_MULTIPLY  &kp F7  &kp F8  &kp F9  &kp F12
@@ -113,16 +123,6 @@
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
-        };
-
-        layer_2 {
-            display-name = "Mark Layer";
-            bindings = <
-&kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
-&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp LCTRL      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
-&mt LEFT_SHIFT MINUS  &kp F17        &kp AT_SIGN   &kp HASH       &trans                              &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
-&trans                &trans         &trans        &trans         &trans            &trans    &trans  &trans            &trans                &trans                 &trans                &trans
-            >;
         };
 
         layer_3 {
@@ -180,9 +180,9 @@
             display-name = "Default Layer_Windows";
             bindings = <
 &kp Q             &kp W    &kp E         &kp R            &kp T                                        &kp Y        &kp U           &kp I        &kp O        &kp P
-&kp A             &kp S    &kp D         &lt 2 F          &kp G                                        &kp H        &lt 2 J         &kp K        &kp L        &lt 5 MINUS
+&kp A             &kp S    &kp D         &lt 1 F          &kp G                                        &kp H        &lt 1 J         &kp K        &kp L        &lt 5 MINUS
 &mt LEFT_SHIFT Z  &kp X    &kp C         &kp V            &kp B                                        &kp N        &kp M           &kp COMMA    &kp DOT      &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT    &kp TAB  &kp LEFT_WIN  &mt LCTRL SPACE  &lt 4 SPACE  &new_behavior    &kp BACKSPACE  &lt 1 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
+&kp LEFT_SHIFT    &kp TAB  &kp LEFT_WIN  &mt LCTRL SPACE  &lt 4 SPACE  &new_behavior    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
