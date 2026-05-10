@@ -87,36 +87,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mark Layer:
-  - '!'
-  - AT
-  - '#'
-  - $
-  - '%'
-  - ^
+  - Sft+'
   - '&'
   - '*'
+  - LESS THAN
+  - GREATER THAN
+  - ^
+  - LBKT
+  - RBKT
   - (
   - ''
-  - F11
-  - F12
-  - F13
-  - {t: F14, type: held}
-  - F15
-  - _
-  - +
-  - Sft+0x89
-  - ':'
-  - '"'
-  - F16
+  - '`'
+  - $
+  - '%'
+  - {t: LCTRL, type: held}
+  - {t: ▽, type: trans}
+  - '!'
+  - (
+  - )
+  - NON US BACKSLASH
+  - ;
+  - {t: '-', h: LEFT SHIFT}
   - F17
-  - F18
-  - F19
-  - F20
+  - '@'
+  - '#'
+  - {t: ▽, type: trans}
+  - QUESTION
+  - '{'
   - '}'
   - '|'
-  - '{'
-  - ''
-  - ''
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
