@@ -100,8 +100,8 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+TAB
-  - A
+  - ''
+  - ''
   - TAB
   - LEFT ARROW
   - DOWN ARROW
@@ -143,7 +143,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+TAB
+  - A
   - ''
   - TAB
   - LEFT ARROW
