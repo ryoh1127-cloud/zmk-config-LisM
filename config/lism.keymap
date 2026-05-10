@@ -75,7 +75,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NEW_BEHAVIOR";
             #binding-cells = <0>;
-            bindings = <&kp INTERNATIONAL_4>, <&kp INTERNATIONAL_5>, <&mo 4>;
+            bindings = <&kp LANGUAGE_1>, <&lt 4 LANGUAGE_2>;
         };
     };
 
