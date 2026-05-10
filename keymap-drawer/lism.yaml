@@ -40,7 +40,7 @@ layers:
   - BS
   - {t: ENTER, h: Mark Layer}
   - Sft+Gui+4
-  - LANGUAGE 2
+  - RIGHT GUI
   - LANGUAGE 1
   - {t: ESC, h: Device Layer}
   Mark Layer:
