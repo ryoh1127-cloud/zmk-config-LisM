@@ -95,10 +95,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W         &kp E                 &kp R            &kp T                                        &kp Y        &kp U           &kp I        &kp O        &kp P
-&mt LEFT_GUI A    &kp S         &kp D                 &lt 1 F          &kp G                                        &kp H        &lt 1 J         &kp K        &kp L        &lt 5 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                        &kp N        &kp M           &kp COMMA    &kp DOT      &mt RIGHT_SHIFT SLASH
-&kp LEFT_GUI      &kp LEFT_ALT  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 3 SPACE  &new_behavior    &kp BACKSPACE  &lt 1 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
+&kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &kp I        &kp O        &kp P
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 1 F          &kp G                                           &kp H        &lt 1 J         &kp K        &kp L        &lt 5 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA    &kp DOT      &mt RIGHT_SHIFT SLASH
+&kp TAB           &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 3 SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &lt 1 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -108,7 +108,7 @@
             display-name = "Mark Layer";
             bindings = <
 &kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
-&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp LCTRL      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
+&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp CARET      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
 &mt LEFT_SHIFT MINUS  &trans         &kp AT_SIGN   &kp HASH       &kp TAB                             &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
 &trans                &trans         &trans        &trans         &kp TAB           &trans    &trans  &trans            &trans                &trans                 &trans                &trans
             >;
