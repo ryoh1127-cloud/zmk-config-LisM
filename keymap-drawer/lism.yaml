@@ -135,28 +135,28 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
-  - HOME
+  - PAGE UP
+  - {t: ▽, type: trans}
   - ↑
-  - END
-  - ''
+  - {t: ▽, type: trans}
+  - PAGE DOWN
   - F21
   - F22
   - F23
   - F24
   - ''
-  - LEFT ARROW
+  - HOME
   - DOWN ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - END
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - PAGE UP
-  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
