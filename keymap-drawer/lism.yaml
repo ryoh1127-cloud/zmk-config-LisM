@@ -233,7 +233,7 @@ layers:
   - ''
   - ''
   - '&mkp MB1'
-  - ''
+  - '&mkp MB3'
   - '&mkp MB2'
   - {type: held}
   - ''
@@ -242,9 +242,9 @@ layers:
   - ''
   - LANGUAGE 2
   - LANGUAGE 1
-  - LCTRL
+  - '&mkp MB4'
   - ''
-  - ''
+  - '&mkp MB5'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
