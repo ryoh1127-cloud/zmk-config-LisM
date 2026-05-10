@@ -189,7 +189,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: Number Layer, h: toggle}
   - ''
   - ''
   - ''
