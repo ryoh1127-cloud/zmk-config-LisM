@@ -33,7 +33,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LEFT GUI
   - LEFT ALT
-  - LEFT CONTROL
+  - {t: LANGUAGE 2, h: LCTRL}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Cursor Layer}
   - '&new_behavior'
@@ -65,7 +65,7 @@ layers:
   - NON US BACKSLASH
   - ;
   - {t: '-', h: LEFT SHIFT}
-  - F17
+  - {t: ▽, type: trans}
   - '@'
   - '#'
   - TAB
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
