@@ -101,19 +101,19 @@ layers:
   - $
   - '%'
   - {t: ^, type: held}
-  - {t: ▽, type: trans}
   - '!'
-  - (
+  - ;
+  - {t: (, h: LGUI}
   - )
   - NON US BACKSLASH
-  - ;
+  - TAB
   - {t: '-', h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - '@'
   - '#'
-  - Gui+TAB
-  - QUESTION
-  - '{'
+  - QMARK
+  - '"'
+  - {t: '{', h: LEFT ALT}
   - '}'
   - '|'
   - '"'
