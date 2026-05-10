@@ -118,10 +118,10 @@
         layer_2 {
             display-name = "Mark Layer";
             bindings = <
-&kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp JP_AMPERSAND  &kp JP_QUOTE   &kp JP_LPAREN     &kp JP_RPAREN  &none
-&kp F11          &kp F12        &kp F13   &kp F14     &kp F15                        &kp JP_EQUAL      &kp JP_TILDE   &kp JP_PIPE       &kp JP_PLUS    &kp JP_ASTERISK
-&kp F16          &kp F17        &kp F18   &kp F19     &kp F20                        &kp JP_LBRACE     &kp JP_RBRACE  &kp JP_BACKQUOTE  &none          &none
-&trans           &trans         &trans    &trans      &trans       &trans    &trans  &trans            &trans         &trans            &trans         &trans
+&kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
+&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp LCTRL      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
+&mt LEFT_SHIFT MINUS  &kp F17        &kp AT_SIGN   &kp HASH       &trans                              &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
+&trans                &trans         &trans        &trans         &trans            &trans    &trans  &trans            &trans                &trans                 &trans                &trans
             >;
         };
 
