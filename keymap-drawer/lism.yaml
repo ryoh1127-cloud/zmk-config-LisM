@@ -43,6 +43,49 @@ layers:
   - LANGUAGE 2
   - LANGUAGE 1
   - {t: ESC, h: Device Layer}
+  Mark Layer:
+  - Sft+'
+  - '&'
+  - '*'
+  - LESS THAN
+  - GREATER THAN
+  - ^
+  - LBKT
+  - RBKT
+  - (
+  - ''
+  - '`'
+  - $
+  - '%'
+  - {t: LCTRL, type: held}
+  - {t: ▽, type: trans}
+  - '!'
+  - (
+  - )
+  - NON US BACKSLASH
+  - ;
+  - {t: '-', h: LEFT SHIFT}
+  - F17
+  - '@'
+  - '#'
+  - TAB
+  - QUESTION
+  - '{'
+  - '}'
+  - '|'
+  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
@@ -82,49 +125,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Mark Layer:
-  - Sft+'
-  - '&'
-  - '*'
-  - LESS THAN
-  - GREATER THAN
-  - ^
-  - LBKT
-  - RBKT
-  - (
-  - ''
-  - '`'
-  - $
-  - '%'
-  - {t: LCTRL, type: held}
-  - {t: ▽, type: trans}
-  - '!'
-  - (
-  - )
-  - NON US BACKSLASH
-  - ;
-  - {t: '-', h: LEFT SHIFT}
-  - F17
-  - '@'
-  - '#'
-  - {t: ▽, type: trans}
-  - QUESTION
-  - '{'
-  - '}'
-  - '|'
-  - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
