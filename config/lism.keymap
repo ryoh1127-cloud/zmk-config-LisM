@@ -60,7 +60,7 @@
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&bt BT_SEL 0>, <&macro_tap>, <&mo 0>;
 
-            label = "MACBOOK";
+            label = "MACBOOKあ";
         };
 
         Windows: new_macro {
