@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - '@'
   - '#'
-  - TAB
+  - Gui+TAB
   - QUESTION
   - '{'
   - '}'
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOLUME DOWN
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
