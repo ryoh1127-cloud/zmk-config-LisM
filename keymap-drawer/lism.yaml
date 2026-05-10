@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - LEFT GUI
+  - TAB
   - LEFT ALT
-  - {t: LANGUAGE 2, h: LCTRL}
+  - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Cursor Layer}
-  - '&new_behavior'
+  - {t: LANGUAGE 1, h: Number Layer}
   - BS
   - {t: ENTER, h: Mark Layer}
   - Sft+Gui+4
@@ -57,7 +57,7 @@ layers:
   - '`'
   - $
   - '%'
-  - {t: LCTRL, type: held}
+  - {t: ^, type: held}
   - {t: ▽, type: trans}
   - '!'
   - (
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
