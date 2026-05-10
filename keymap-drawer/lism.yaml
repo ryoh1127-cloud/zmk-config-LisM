@@ -35,9 +35,9 @@ layers:
   - TAB
   - LEFT WIN
   - {t: SPACE, h: LCTRL}
-  - LEFT ALT
-  - {t: DEL, h: Mark Layer}
-  - {t: BS, h: LEFT SHIFT}
+  - {t: SPACE, h: Mark Layer}
+  - '&new_behavior'
+  - BS
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
   - LANGUAGE 2
@@ -121,8 +121,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
