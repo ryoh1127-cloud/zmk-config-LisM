@@ -20,8 +20,8 @@ layers:
   - {t: J, h: Cursor Layer}
   - K
   - L
-  - {t: ;, h: Mouse Layer}
-  - Z
+  - {t: '-', h: Mouse Layer}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LEFT SHIFT
   - TAB
   - LEFT WIN
@@ -136,9 +136,9 @@ layers:
   - ''
   - ''
   - HOME
+  - HOME
+  - ↑
   - END
-  - ''
-  - ''
   - ''
   - F21
   - F22
@@ -147,7 +147,7 @@ layers:
   - ''
   - LEFT ARROW
   - DOWN ARROW
-  - UP ARROW
+  - DOWN ARROW
   - RIGHT ARROW
   - ''
   - ''
@@ -301,3 +301,6 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
+combos:
+- p: [36, 35]
+  k: ESC
