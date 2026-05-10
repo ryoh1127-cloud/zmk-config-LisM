@@ -97,7 +97,7 @@
 &kp Q             &kp W         &kp E             &kp R            &kp T                                        &kp Y        &kp U           &kp I        &kp O        &kp P
 &mt LEFT_GUI A    &kp S         &kp D             &lt 1 F          &kp G                                        &kp H        &lt 1 J         &kp K        &kp L        &lt 5 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V            &kp B                                        &kp N        &kp M           &kp COMMA    &kp DOT      &mt RIGHT_SHIFT SLASH
-&kp LEFT_GUI      &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LCTRL SPACE  &lt 3 SPACE  &new_behavior    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
+&kp LEFT_GUI      &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LCTRL SPACE  &lt 3 SPACE  &new_behavior    &kp BACKSPACE  &lt 1 ENTER  &kp LS(LG(N4))  &kp JP_EISU  &kp JP_KANA  &lt 4 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
