@@ -347,3 +347,7 @@ layers:
 combos:
 - p: [10, 11]
   k: ESC
+- p: [11, 12]
+  k: TAB
+- p: [1, 2]
+  k: ESC
