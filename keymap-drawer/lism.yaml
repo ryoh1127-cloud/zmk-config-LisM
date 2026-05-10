@@ -35,10 +35,10 @@ layers:
   - LEFT ALT
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
-  - {t: SPACE, h: Cursor Layer}
+  - {t: SPACE, h: Mark Layer}
   - {t: LANGUAGE 1, h: Number Layer}
   - BS
-  - {t: ENTER, h: Mark Layer}
+  - {t: ENTER, h: Cursor Layer_MacBook}
   - Sft+Gui+4
   - LEFT GUI
   - LANGUAGE 1
@@ -78,14 +78,100 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
-  - {t: SPACE, h: Cursor Layer}
+  - {t: SPACE, h: Mark Layer}
   - {t: LANGUAGE 1, h: Number Layer}
   - BS
-  - {t: ENTER, h: Mark Layer}
+  - {t: ENTER, h: CursorLayer_Windows}
   - Sft+Gui+4
   - LCTRL
   - LANGUAGE 1
   - {t: ESC, h: Device Layer}
+  Cursor Layer_MacBook:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - HOME
+  - ↑
+  - END
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - Gui+TAB
+  - ''
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - LEFT GUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  CursorLayer_Windows:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE UP
+  - HOME
+  - ↑
+  - END
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - Gui+TAB
+  - ''
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - LEFT ALT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Mark Layer:
   - Sft+'
   - '&'
@@ -168,49 +254,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Cursor Layer:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PAGE UP
-  - {t: ▽, type: trans}
-  - ↑
-  - {t: ▽, type: trans}
-  - PAGE DOWN
-  - ''
-  - ''
-  - ''
-  - Gui+TAB
-  - ''
-  - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - END
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - DEL
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
