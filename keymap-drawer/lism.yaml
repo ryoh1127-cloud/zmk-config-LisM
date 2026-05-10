@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT GUI}
   - S
   - D
   - {t: F, h: Mark Layer}
@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - LEFT SHIFT
-  - TAB
-  - LEFT WIN
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT CONTROL
   - {t: SPACE, h: LCTRL}
-  - {t: SPACE, h: Device Layer}
+  - {t: SPACE, h: Cursor Layer}
   - '&new_behavior'
   - BS
   - {t: ENTER, h: Number Layer}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,14 +207,14 @@ layers:
   - BT CLR ALL
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - '&studio_unlock'
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   Mouse Layer:
   - ''
   - ''
