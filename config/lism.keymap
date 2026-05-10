@@ -108,7 +108,7 @@
             bindings = <
 &kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
 &kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp LCTRL      &trans                              &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON
-&mt LEFT_SHIFT MINUS  &kp F17        &kp AT_SIGN   &kp HASH       &kp TAB                             &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
+&mt LEFT_SHIFT MINUS  &trans         &kp AT_SIGN   &kp HASH       &kp TAB                             &kp QUESTION      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
 &trans                &trans         &trans        &trans         &kp TAB           &trans    &trans  &trans            &trans                &trans                 &trans                &trans
             >;
         };
