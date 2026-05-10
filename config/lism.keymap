@@ -124,7 +124,7 @@
             display-name = "Default Layer_Windows";
             bindings = <
 &kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &kp I      &kp O        &kp P
-&kp A             &kp S         &kp D                    &lt 2 F          &kp A                                           &kp H        &lt 2 J         &kp K      &kp L        &lt 6 MINUS
+&kp A             &kp S         &kp D                    &lt 2 F          &kp G                                           &kp H        &lt 2 J         &kp K      &kp L        &lt 6 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
 &mt LCTRL TAB     &kp LEFT_GUI  &mt LEFT_ALT LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &lt 3 LANGUAGE_1    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LCTRL  &kp JP_KANA  &lt 5 ESC
             >;
