@@ -91,7 +91,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "new_behavior";
             #binding-cells = <0>;
-            bindings = <&lt 2 LANGUAGE_1>, <&kp LANGUAGE_2>;
+            bindings = <&lt 4 LANGUAGE_1>, <&kp LANGUAGE_2>;
         };
     };
 
@@ -116,27 +116,47 @@
             display-name = "Default Layer";
             bindings = <
 &kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &kp I         &kp O        &kp P
-&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                           &kp H        &lt 2 J         &kp K         &kp L        &lt 6 MINUS
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 4 F          &kp G                                           &kp H        &lt 4 J         &kp K         &kp L        &lt 7 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LEFT_GUI TAB  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &lt 3 LANGUAGE_1    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 5 ESC
-            >;
-
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
-        };
-
-        layer_8 {
-            display-name = "Default Layer_Windows";
-            bindings = <
-&kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &kp I      &kp O        &kp P
-&kp A             &kp S         &kp D                    &lt 2 F          &kp G                                           &kp H        &lt 2 J         &kp K      &kp L        &lt 6 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LCTRL TAB     &kp LEFT_GUI  &mt LEFT_ALT LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &lt 3 LANGUAGE_1    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LCTRL  &kp JP_KANA  &lt 5 ESC
+&mt LEFT_GUI TAB  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 6 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_1 {
+            display-name = "Default Layer_Windows";
+            bindings = <
+&kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &kp I      &kp O        &kp P
+&kp A             &kp S         &kp D                    &lt 4 F          &kp G                                           &kp H        &lt 4 J         &kp K      &kp L        &lt 7 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA  &kp DOT      &mt RIGHT_SHIFT SLASH
+&mt LCTRL TAB     &kp LEFT_GUI  &mt LEFT_ALT LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &lt 5 LANGUAGE_1    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LCTRL  &kp JP_KANA  &lt 6 ESC
+            >;
+
+            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+        };
+
+        layer_2 {
+            display-name = "Cursor Layer_MacBook";
+            bindings = <
+&none   &none   &none   &none        &none                         &kp PAGE_UP  &kp HOME        &kp UP          &kp END          &kp PAGE_DOWN
+&none   &none   &none   &kp LG(TAB)  &none                         &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI
+&none   &none   &none   &none        &none                         &trans       &trans          &none           &none            &none
+&trans  &trans  &trans  &trans       &trans  &trans    &kp DELETE  &trans       &trans          &trans          &trans           &trans
+            >;
+        };
+
+        layer_3 {
+            display-name = "CursorLayer_Windows";
+            bindings = <
+&none   &none   &none   &none        &none                         &kp PAGE_UP  &kp HOME        &kp UP          &kp END          &kp PAGE_DOWN
+&none   &none   &none   &kp LG(TAB)  &none                         &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
+&none   &none   &none   &none        &none                         &trans       &trans          &none           &none            &none
+&trans  &trans  &trans  &trans       &trans  &trans    &kp DELETE  &trans       &trans          &trans          &trans           &trans
+            >;
+        };
+
+        layer_4 {
             display-name = "Mark Layer";
             bindings = <
 &kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND   &kp LBKT                   &kp RBKT               &kp JP_RPAREN         &none
@@ -146,7 +166,7 @@
             >;
         };
 
-        layer_2 {
+        layer_5 {
             display-name = "Number Layer";
             bindings = <
 &kp F12  &kp F7  &kp F8  &kp F9  &kp KP_MULTIPLY                    &kp PLUS   &kp N7  &kp N8  &kp N9  &trans
@@ -158,17 +178,7 @@
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_3 {
-            display-name = "Cursor Layer";
-            bindings = <
-&none   &none   &none   &none        &none                         &kp PAGE_UP  &trans          &kp UP          &trans           &kp PAGE_DOWN
-&none   &none   &none   &kp LG(TAB)  &none                         &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&none   &none   &none   &none        &none                         &trans       &trans          &none           &none            &none
-&trans  &trans  &trans  &trans       &trans  &trans    &kp DELETE  &trans       &trans          &trans          &trans           &trans
-            >;
-        };
-
-        layer_4 {
+        layer_6 {
             display-name = "Device Layer";
             bindings = <
 &none        &none           &none  &none  &bt BT_CLR                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
@@ -178,7 +188,7 @@
             >;
         };
 
-        layer_5 {
+        layer_7 {
             display-name = "Mouse Layer";
             bindings = <
 &none    &none    &none    &none    &none                          &none        &kp LA(LEFT)  &kp LA(RIGHT)  &none     &none
@@ -188,7 +198,7 @@
             >;
         };
 
-        layer_6 {
+        layer_8 {
             display-name = "Auto Mouse Layer";
             bindings = <
 &none   &none   &none   &none   &none                     &none   &kp LA(LEFT)  &kp LA(RIGHT)  &none     &none
