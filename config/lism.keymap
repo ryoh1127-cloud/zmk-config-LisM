@@ -139,20 +139,20 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&none           &none   &none   &none   &none                         &kp PAGE_UP  &kp HOME        &kp UP          &kp END          &kp PAGE_DOWN
-&none           &none   &none   &none   &none                         &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI
-&kp LEFT_SHIFT  &none   &none   &none   &none                         &trans       &trans          &none           &none            &none
-&trans          &trans  &trans  &trans  &trans  &trans    &kp DELETE  &trans       &trans          &trans          &trans           &trans
+&none           &none   &none   &none   &none                         &kp PAGE_UP  &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
+&none           &none   &none   &none   &none                         &kp TAB      &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI
+&kp LEFT_SHIFT  &none   &none   &none   &none                         &trans       &kp LS(LC(TAB))  &kp LG(W)       &kp LC(TAB)      &none
+&trans          &trans  &trans  &trans  &trans  &trans    &kp DELETE  &trans       &trans           &trans          &trans           &trans
             >;
         };
 
         layer_3 {
-            display-name = "CursorLayer_Windows";
+            display-name = "Cursor Layer_Windows";
             bindings = <
-&none           &none   &none   &none   &none                         &kp PAGE_UP  &kp HOME        &kp UP          &kp END          &kp PAGE_DOWN
-&none           &none   &none   &kp A   &none                         &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
-&kp LEFT_SHIFT  &none   &none   &none   &none                         &trans       &trans          &none           &none            &none
-&trans          &trans  &trans  &trans  &trans  &trans    &kp DELETE  &trans       &trans          &trans          &trans           &trans
+&none           &none   &none   &none   &none                         &kp PAGE_UP  &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
+&none           &none   &none   &kp A   &none                         &kp TAB      &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
+&kp LEFT_SHIFT  &none   &none   &none   &none                         &trans       &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &none
+&trans          &trans  &trans  &trans  &trans  &trans    &kp DELETE  &trans       &trans           &trans          &trans           &trans
             >;
         };
 
