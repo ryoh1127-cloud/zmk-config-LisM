@@ -107,6 +107,11 @@
             bindings = <&kp ESC>;
             key-positions = <1 2>;
         };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <21 22>;
+        };
     };
 
     keymap {
