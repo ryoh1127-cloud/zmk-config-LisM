@@ -81,7 +81,7 @@ layers:
   - {t: SPACE, h: Mark Layer}
   - {t: LANGUAGE 1, h: Number Layer}
   - BS
-  - {t: ENTER, h: CursorLayer_Windows}
+  - {t: ENTER, h: Cursor Layer_Windows}
   - Sft+Gui+4
   - LCTRL
   - LANGUAGE 1
@@ -113,9 +113,9 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - Sft+Ctl+TAB
+  - Gui+W
+  - Ctl+TAB
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  CursorLayer_Windows:
+  Cursor Layer_Windows:
   - ''
   - ''
   - ''
@@ -156,9 +156,9 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - Sft+Ctl+TAB
+  - Ctl+W
+  - Ctl+TAB
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
