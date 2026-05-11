@@ -150,7 +150,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - LEFT ALT
-  - LEFT SHIFT
+  - {t: Ctl+Z, h: LEFT SHIFT}
   - ''
   - ''
   - ''
