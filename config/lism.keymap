@@ -87,11 +87,13 @@
             bindings = <&kp>, <&kp>;
         };
 
-        new_behavior: new_behavior {
+        eisu_kana: eisu_kana {
             compatible = "zmk,behavior-tap-dance";
-            label = "new_behavior";
+            label = "EISU_KANA";
             #binding-cells = <0>;
             bindings = <&lt 4 LANGUAGE_1>, <&kp LANGUAGE_2>;
+
+            tapping-term-ms = <250>;
         };
     };
 
@@ -165,7 +167,7 @@
             display-name = "Mark Layer";
             bindings = <
 &kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND   &kp LBKT              &kp RBKT               &kp JP_RPAREN         &none
-&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp CARET      &kp EXCLAMATION                     &kp SEMICOLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp TAB
+&kp GRAVE             &kp DOLLAR     &kp PERCENT   &kp CARET      &kp EXCLAMATION                     &kp SEMICOLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp UNDERSCORE
 &mt LEFT_SHIFT MINUS  &trans         &kp AT_SIGN   &kp HASH       &kp QMARK                           &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &kp DOUBLE_QUOTES
 &trans                &trans         &trans        &trans         &kp TAB           &trans    &trans  &trans             &trans                &trans                 &kp C_VOLUME_UP       &kp C_VOLUME_DOWN
             >;
