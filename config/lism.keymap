@@ -150,7 +150,7 @@
 &mt LCTRL TAB     &kp LEFT_GUI  &mt LEFT_ALT LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LCTRL  &kp JP_KANA  &lt 6 ESC
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_2 {
