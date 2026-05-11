@@ -91,7 +91,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "EISU_KANA";
             #binding-cells = <0>;
-            bindings = <&lt 4 LANGUAGE_1>, <&kp LANGUAGE_2>;
+            bindings = <&lt 5 LANGUAGE_1>, <&kp LANGUAGE_2>;
 
             tapping-term-ms = <250>;
         };
