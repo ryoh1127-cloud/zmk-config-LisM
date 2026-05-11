@@ -61,7 +61,7 @@
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 0>,
-                <&macro_wait_time 2000>,
+                <&macro_wait_time 20000>,
                 <&macro_tap>,
                 <&tog 0>;
 
@@ -74,7 +74,7 @@
             bindings =
                 <&macro_tap>,
                 <&bt BT_SEL 1>,
-                <&macro_wait_time 2000>,
+                <&macro_wait_time 20000>,
                 <&macro_tap>,
                 <&to 1>;
 
