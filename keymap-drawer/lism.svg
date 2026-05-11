@@ -345,6 +345,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-Default Layer_Windows">
@@ -555,6 +559,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-Cursor Layer_MacBook">
@@ -740,6 +748,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-Cursor Layer_Windows">
@@ -921,6 +933,10 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
 </g>
 </g>
 </g>
@@ -1113,6 +1129,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-Number Layer">
@@ -1295,6 +1315,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-Device Layer">
@@ -1466,6 +1490,10 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
 </g>
 </g>
 </g>
@@ -1645,6 +1673,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2240)" class="layer-Auto Mouse Layer">
@@ -1810,6 +1842,10 @@ path.combo { stroke: #7f7f7f; }
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="15" width="28" height="26" class="combo"/>
 <text x="112" y="28" class="combo tap">ESC</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">F10</text>
 </g>
 </g>
 </g>

@@ -392,3 +392,5 @@ combos:
   k: TAB
 - p: [1, 2]
   k: ESC
+- p: [21, 22]
+  k: F10
