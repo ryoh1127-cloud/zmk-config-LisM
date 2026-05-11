@@ -36,7 +36,7 @@ layers:
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
-  - {t: LANGUAGE 1, h: Number Layer}
+  - '&eisu_kana'
   - BS
   - {t: ENTER, h: Cursor Layer_MacBook}
   - Sft+Gui+4
@@ -79,7 +79,7 @@ layers:
   - {t: LANGUAGE 2, h: LEFT ALT}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
-  - {t: LANGUAGE 1, h: Number Layer}
+  - '&eisu_kana'
   - BS
   - {t: ENTER, h: Cursor Layer_Windows}
   - Sft+Gui+4
@@ -251,7 +251,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
