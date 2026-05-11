@@ -189,7 +189,7 @@ layers:
   - {t: ^, type: held}
   - '!'
   - ;
-  - {t: (, h: LGUI}
+  - (
   - )
   - NON US BACKSLASH
   - TAB
@@ -199,7 +199,7 @@ layers:
   - '#'
   - QMARK
   - '"'
-  - {t: '{', h: LEFT ALT}
+  - '{'
   - '}'
   - '|'
   - '"'
