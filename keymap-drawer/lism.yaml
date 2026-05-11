@@ -155,7 +155,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - Alt+F4
   - Sft+Ctl+TAB
   - Ctl+W
   - Ctl+TAB
