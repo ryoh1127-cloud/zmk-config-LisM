@@ -93,9 +93,9 @@ layers:
   - ''
   - ''
   - PAGE UP
-  - HOME
+  - Gui+LEFT ARROW
   - ↑
-  - END
+  - Gui+RIGHT ARROW
   - PAGE DOWN
   - ''
   - ''
