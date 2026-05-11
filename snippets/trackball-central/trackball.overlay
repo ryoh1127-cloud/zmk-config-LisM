@@ -19,7 +19,7 @@
 // excluded-positions以外のキーを押すとAMLが解除される。positionsは、lism.dtsiのpositionsと同じ順番で指定する必要がある。
 //キー入力中のオートマウスレイヤー誤爆防止
 &zip_temp_layer {
-    require-prior-idle-ms = <200>; 
+    require-prior-idle-ms = <350>; 
 
     excluded-positions = <
         6 // U
