@@ -189,8 +189,8 @@ layers:
   - {t: ^, type: held}
   - '!'
   - ;
-  - '*'
   - (
+  - )
   - NON US BACKSLASH
   - UNDERSCORE
   - {t: '-', h: LEFT SHIFT}
