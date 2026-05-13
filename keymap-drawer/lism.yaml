@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - {t: TAB, h: LEFT GUI}
+  - {t: TAB, h: LCTRL}
   - LEFT ALT
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
@@ -74,16 +74,16 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - {t: TAB, h: LCTRL}
+  - {t: TAB, h: LEFT ALT}
   - LEFT GUI
-  - {t: LANGUAGE 2, h: LEFT ALT}
+  - {t: LANGUAGE 2, h: LCTRL}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
   - '&eisu_kana'
   - BS
   - {t: ENTER, h: Cursor Layer_Windows}
   - Sft+Gui+4
-  - LCTRL
+  - LEFT ALT
   - LANGUAGE 1
   - {t: ESC, h: Device Layer}
   Cursor Layer_MacBook:
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - DEL
   - {type: held}
@@ -173,36 +173,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mark Layer:
-  - Sft+'
-  - '&'
-  - '*'
+  - ''''
+  - '"'
+  - '!'
   - LESS THAN
   - GREATER THAN
   - ^
   - LBKT
   - RBKT
   - (
-  - ''
-  - '`'
-  - $
   - '%'
+  - '@'
+  - '#'
+  - $
   - {t: ^, type: held}
   - '!'
   - ;
   - (
   - )
-  - NON US BACKSLASH
-  - UNDERSCORE
+  - ''
+  - ''
   - {t: '-', h: LEFT SHIFT}
-  - {t: ▽, type: trans}
+  - ''
   - '@'
-  - '#'
+  - NON US BACKSLASH
   - TAB
-  - '"'
+  - ':'
   - '{'
   - '}'
   - '|'
-  - '"'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
