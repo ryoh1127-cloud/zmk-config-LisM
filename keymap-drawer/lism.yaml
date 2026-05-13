@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: Scroll Layer}
   - {t: A, h: LEFT GUI}
   - S
   - D
@@ -53,7 +53,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: Scroll Layer}
   - {t: A, h: LCTRL}
   - S
   - D
@@ -197,7 +197,7 @@ layers:
   - {t: ▽, type: trans}
   - '@'
   - '#'
-  - QMARK
+  - TAB
   - '"'
   - '{'
   - '}'
@@ -354,7 +354,7 @@ layers:
   - Alt+←
   - Alt+→
   - ''
-  - ''
+  - {type: held}
   - ''
   - F22
   - F23
@@ -364,7 +364,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''

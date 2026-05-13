@@ -177,7 +177,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(700, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
-</g>
+<a href="#Scroll-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Scroll Lay…</tspan></text>
+</a></g>
 <g transform="translate(28, 84)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
@@ -390,7 +392,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(700, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
-</g>
+<a href="#Scroll-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Scroll Lay…</tspan></text>
+</a></g>
 <g transform="translate(28, 84)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
@@ -1040,7 +1044,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(252, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">QMARK</text>
+<text x="0" y="0" class="key tap">TAB</text>
 </g>
 <g transform="translate(476, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1692,8 +1696,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(700, 28)" class="key keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(700, 28)" class="key held keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(28, 84)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1734,8 +1738,8 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
 </text>
 </g>
-<g transform="translate(700, 84)" class="key held keypos-19">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(700, 84)" class="key keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(28, 140)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
