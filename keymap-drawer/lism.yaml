@@ -173,24 +173,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mark Layer:
-  - ''''
-  - '"'
+  - '&'
+  - '*'
   - '!'
   - LESS THAN
   - GREATER THAN
   - ^
-  - LBKT
-  - RBKT
+  - '@'
+  - '['
   - (
   - '%'
-  - '@'
+  - '"'
   - '#'
   - $
-  - {t: ^, type: held}
+  - {t: '&', type: held}
   - '!'
   - ;
+  - '*'
   - (
-  - )
   - ''
   - ''
   - LEFT SHIFT
@@ -198,16 +198,16 @@ layers:
   - ''
   - /
   - \
-  - ':'
+  - +
+  - '`'
   - '{'
-  - '}'
   - '|'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: TAB, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
