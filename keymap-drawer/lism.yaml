@@ -193,7 +193,7 @@ layers:
   - )
   - ''
   - ''
-  - {t: '-', h: LEFT SHIFT}
+  - LEFT SHIFT
   - ''
   - '@'
   - NON US BACKSLASH
