@@ -91,7 +91,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "EISU_KANA";
             #binding-cells = <0>;
-            bindings = <&lt 5 LANGUAGE_1>, <&kp LANGUAGE_2>;
+            bindings = <&lt 6 LANGUAGE_1>, <&kp LANGUAGE_2>;
 
             tapping-term-ms = <250>;
         };
@@ -122,10 +122,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W         &kp E                    &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 8 P
-&mt LEFT_GUI A    &kp S         &kp D                    &lt 4 F          &kp G                                     &kp H        &lt 4 J         &kp K         &kp L        &lt 8 MINUS
+&kp Q             &kp W         &kp E                    &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 9 P
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 4 F          &kp G                                     &kp H        &lt 4 J         &kp K         &kp L        &lt 9 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 6 ESC
+&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -134,10 +134,10 @@
         layer_1 {
             display-name = "Default Layer_Windows";
             bindings = <
-&kp Q             &kp W         &kp E                 &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 8 P
-&mt LCTRL A       &kp S         &kp D                 &lt 4 F          &kp G                                     &kp H        &lt 4 J         &kp K         &kp L        &lt 8 MINUS
+&kp Q             &kp W         &kp E                 &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 9 P
+&mt LCTRL A       &kp S         &kp D                 &lt 4 F          &kp G                                     &kp H        &lt 4 J         &kp K         &kp L        &lt 9 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 6 ESC
+&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kana    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -170,6 +170,16 @@
 &kp AT_SIGN       &kp HASH           &kp DOLLAR       &kp CARET      &kp EXCLAMATION                     &kp SEMICOLON     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none            &none
 &kp LEFT_SHIFT    &none              &none            &kp SLASH      &kp BACKSLASH                       &kp COLON         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &none
 &trans            &trans             &trans           &trans         &kp TAB           &trans    &trans  &trans            &trans                &trans                 &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+            >;
+        };
+
+        layer_9 {
+            display-name = "Mark Layer";
+            bindings = <
+&kp AMPERSAND      &kp ASTERISK  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp AT_SIGN   &kp LEFT_BRACKET      &kp JP_RPAREN    &kp PERCENT
+&kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR       &kp AMPERSAND  &kp EXCLAMATION                     &kp SEMICOLON     &kp ASTERISK  &kp LEFT_PARENTHESIS  &none            &none
+&kp LEFT_SHIFT     &none         &none            &kp SLASH      &kp BACKSLASH                       &kp PLUS          &kp GRAVE     &kp LEFT_BRACE        &kp PIPE         &none
+&trans             &trans        &trans           &trans         &kp TAB           &trans    &trans  &trans            &trans        &trans                &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
             >;
         };
 
