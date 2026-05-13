@@ -20,7 +20,7 @@ layers:
   - {t: J, h: Mark Layer}
   - K
   - L
-  - {t: '-', h: Mouse Layer}
+  - {t: '-', h: Scroll Layer}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -63,7 +63,7 @@ layers:
   - {t: J, h: Mark Layer}
   - K
   - L
-  - {t: '-', h: Mouse Layer}
+  - {t: '-', h: Scroll Layer}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -308,6 +308,49 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB4'
+  - ''
+  - '&mkp MB5'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  Scroll Layer:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Alt+←
   - Alt+→
   - ''
@@ -344,49 +387,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Auto Mouse Layer:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MB4'
-  - ''
-  - '&mkp MB5'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
 combos:
 - p: [11, 12]
   k: TAB
