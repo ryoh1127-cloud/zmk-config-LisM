@@ -176,7 +176,7 @@
         layer_9 {
             display-name = "Mark Layer";
             bindings = <
-&kp AMPERSAND      &kp ASTERISK  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp AT_SIGN   &kp LEFT_BRACKET      &kp JP_RPAREN    &kp PERCENT
+&kp AMPERSAND      &kp JP_DQUOTE  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp AT_SIGN   &kp LEFT_BRACKET      &kp JP_RPAREN    &kp PERCENT
 &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR       &kp AMPERSAND  &kp EXCLAMATION                     &kp SEMICOLON     &kp ASTERISK  &kp LEFT_PARENTHESIS  &none            &none
 &kp LEFT_SHIFT     &none         &none            &kp SLASH      &kp BACKSLASH                       &kp PLUS          &kp GRAVE     &kp LEFT_BRACE        &kp PIPE         &none
 &trans             &trans        &trans           &trans         &kp TAB           &trans    &trans  &trans            &trans        &trans                &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
