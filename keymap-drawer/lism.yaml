@@ -299,7 +299,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Boot
   - {t: Boot, type: held}
   Mouse Layer:
   - ''
