@@ -22,8 +22,8 @@
     require-prior-idle-ms = <350>; 
 
     excluded-positions = <
-        6 // U
-        7 // I
+        //6 // U
+        //7 // I
         16 // J
         17 // K
         18 // L
@@ -38,10 +38,10 @@
     device = <&trackball_central>;
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_temp_layer 8 10000>;
+        <&zip_temp_layer 7 10000>;
 
     scroller {
-        layers = <7>;
+        layers = <8>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
              //&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
