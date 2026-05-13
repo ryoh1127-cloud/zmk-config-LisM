@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT GUI}
   - S
   - D
   - {t: F, h: Mark Layer}
@@ -54,7 +54,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - {t: F, h: Mark Layer}
