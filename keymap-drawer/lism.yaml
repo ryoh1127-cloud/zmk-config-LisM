@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   Mark Layer:
   - '&'
-  - '*'
+  - AT
   - '!'
   - LESS THAN
   - GREATER THAN
