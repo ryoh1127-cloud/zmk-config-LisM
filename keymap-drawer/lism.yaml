@@ -274,9 +274,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer_Windows, h: toggle}
-  - ''
+  - '&bt_Mac'
+  - '&bt_Win'
+  - '&bt_iPad'
   - ''
   - ''
   - Reset
@@ -284,8 +284,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&MacBook'
-  - '&Windows'
+  - {t: Default Layer, h: toggle}
+  - {t: Default Layer_Windows, h: toggle}
   - ''
   - ''
   - Reset
