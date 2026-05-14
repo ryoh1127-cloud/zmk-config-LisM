@@ -14,10 +14,10 @@ layers:
   - {t: A, h: LEFT GUI}
   - S
   - D
-  - {t: F, h: Mark Layer}
+  - {t: F, h: LEFT GUI}
   - G
   - H
-  - {t: J, h: Mark Layer}
+  - {t: J, h: LEFT GUI}
   - K
   - L
   - {t: '-', h: Scroll Layer}
@@ -57,10 +57,10 @@ layers:
   - {t: A, h: LCTRL}
   - S
   - D
-  - {t: F, h: Mark Layer}
+  - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: Mark Layer}
+  - {t: J, h: LCTRL}
   - K
   - L
   - {t: '-', h: Scroll Layer}
@@ -186,7 +186,7 @@ layers:
   - '"'
   - '#'
   - $
-  - {t: '&', type: held}
+  - '&'
   - '!'
   - ;
   - '*'
