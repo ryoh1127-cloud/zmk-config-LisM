@@ -175,27 +175,27 @@
 &none                 &none   &none   &none   &none                          &kp PAGE_UP      &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
 &none                 &none   &none   &kp A   &none                          &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
 &mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                          &copy_paste_win  &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &kp LA(F4)
-&trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &trans
+&trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &kp LG(LS(S))
             >;
         };
 
         layer_4 {
             display-name = "Mark Layer";
             bindings = <
-&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp INTERNATIONAL_3  &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT
-&kp AT_SIGN       &kp HASH           &kp DOLLAR       &kp CARET      &kp TILDE                           &kp SEMICOLON        &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp LEFT_SHIFT    &kp GRAVE          &none            &kp SLASH      &kp BACKSLASH                       &kp COLON            &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
-&trans            &trans             &trans           &trans         &kp TAB           &trans    &trans  &trans               &trans         &trans                &kp C_VOLUME_UP        &kp C_VOLUME_DOWN
+&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &none          &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT
+&kp AT_SIGN       &kp HASH           &kp DOLLAR       &kp CARET      &kp TILDE                           &kp SEMICOLON  &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp LEFT_SHIFT    &kp GRAVE          &none            &kp SLASH      &kp BACKSLASH                       &kp COLON      &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
+&trans            &trans             &trans           &trans         &kp TAB           &trans    &trans  &trans         &trans         &trans                &kp C_VOLUME_UP        &kp C_VOLUME_DOWN
             >;
         };
 
         layer_9 {
             display-name = "Mark Layer";
             bindings = <
-&kp AMPERSAND      &kp JP_DQUOTE  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_AMPERSAND  &kp AT_SIGN   &kp LEFT_BRACKET      &kp JP_RPAREN    &kp PERCENT
-&kp DOUBLE_QUOTES  &kp HASH       &kp DOLLAR       &kp AMPERSAND  &kp EXCLAMATION                     &kp SEMICOLON     &kp ASTERISK  &kp LEFT_PARENTHESIS  &none            &none
-&kp LEFT_SHIFT     &none          &none            &kp SLASH      &kp BACKSLASH                       &kp PLUS          &kp GRAVE     &kp LEFT_BRACE        &kp PIPE         &none
-&trans             &trans         &trans           &trans         &kp TAB           &trans    &trans  &trans            &trans        &trans                &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+&kp AMPERSAND      &kp JP_DQUOTE  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &none          &none      &kp LEFT_BRACKET      &kp JP_RPAREN    &kp PERCENT
+&kp DOUBLE_QUOTES  &kp HASH       &kp DOLLAR       &kp AMPERSAND  &kp EXCLAMATION                     &kp SEMICOLON  &none      &kp LEFT_PARENTHESIS  &none            &none
+&kp LEFT_SHIFT     &none          &none            &kp SLASH      &kp BACKSLASH                       &kp PLUS       &kp GRAVE  &kp LEFT_BRACE        &kp PIPE         &kp LEFT_SHIFT
+&trans             &trans         &trans           &trans         &kp TAB           &trans    &trans  &trans         &trans     &trans                &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
             >;
         };
 
