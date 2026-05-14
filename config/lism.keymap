@@ -165,7 +165,7 @@
 &none           &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                        &kp PAGE_UP      &kp LG(LEFT_ARROW)  &kp UP          &kp LG(RIGHT_ARROW)  &kp PAGE_DOWN
 &none           &none   &none   &none   &none                                                    &kp TAB          &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LEFT_GUI
 &kp LEFT_SHIFT  &none   &none   &none   &none                                                    &copy_paste_mac  &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
-&trans          &trans  &trans  &trans  &trans                             &trans    &kp DELETE  &trans           &trans              &trans          &trans               &trans
+&trans          &trans  &trans  &trans  &trans                             &trans    &kp DELETE  &trans           &trans              &trans          &trans               &kp LG(LS(NUMBER_3))
             >;
         };
 
