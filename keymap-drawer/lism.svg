@@ -863,7 +863,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(476, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Alt+F4</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;copy_past…</tspan></text>
 </g>
 <g transform="translate(532, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -881,6 +881,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(700, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Alt+F4</text>
 </g>
 <g transform="translate(28, 196)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

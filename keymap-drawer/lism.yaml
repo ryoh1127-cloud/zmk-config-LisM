@@ -155,11 +155,11 @@ layers:
   - ''
   - ''
   - ''
-  - Alt+F4
+  - '&copy_paste_win'
   - Sft+Ctl+TAB
   - Ctl+W
   - Ctl+TAB
-  - ''
+  - Alt+F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
