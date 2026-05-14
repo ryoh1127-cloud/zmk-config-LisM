@@ -112,11 +112,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - '&copy_paste_mac'
   - Sft+Ctl+TAB
   - Gui+W
   - Ctl+TAB
-  - ''
+  - '&copy_paste_mac'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
