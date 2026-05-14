@@ -101,7 +101,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - AC DESKTOP SHOW ALL APPLICATIONS
   - TAB
   - LEFT ARROW
   - DOWN ARROW
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+3
+  - Gui+Sft+4
   Cursor Layer_Windows:
   - ''
   - ''
