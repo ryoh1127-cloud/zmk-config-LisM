@@ -103,6 +103,14 @@
             tapping-term-ms = <250>;
             bindings = <&mt LG(X) LG(C)>, <&kp LG(V)>;
         };
+
+        copy_paste_win: copy_paste_win {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COPY_PASTE_WIN";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mt LC(X) LC(C)>, <&kp LC(V)>;
+        };
     };
 
     combos {
@@ -164,10 +172,10 @@
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&none                 &none   &none   &none   &none                          &kp PAGE_UP  &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
-&none                 &none   &none   &kp A   &none                          &kp TAB      &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
-&mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                          &kp LA(F4)   &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &none
-&trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans       &trans           &trans          &trans           &trans
+&none                 &none   &none   &none   &none                          &kp PAGE_UP      &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
+&none                 &none   &none   &kp A   &none                          &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
+&mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                          &copy_paste_win  &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &kp LA(F4)
+&trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &trans
             >;
         };
 
