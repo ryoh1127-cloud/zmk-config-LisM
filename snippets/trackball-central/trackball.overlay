@@ -22,7 +22,7 @@
     require-prior-idle-ms = <350>; 
 
 // ★ レイヤー7が有効な時はオートマウスレイヤー無効
-    ignored-layers = <7>;
+    blocked-layers = <7>;
 
     excluded-positions = <
         //6 // U
