@@ -136,20 +136,20 @@ layers:
   - ''
   - ''
   - PAGE UP
-  - HOME
+  - Ctl+Sft+TAB
   - ↑
-  - END
+  - Ctl+TAB
   - PAGE DOWN
   - ''
   - ''
   - ''
   - {t: A, type: held}
   - ''
-  - TAB
+  - HOME
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - LEFT ALT
+  - END
   - {t: Ctl+Z, h: LEFT SHIFT}
   - ''
   - ''
