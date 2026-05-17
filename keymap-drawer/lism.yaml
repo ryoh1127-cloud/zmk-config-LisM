@@ -93,20 +93,20 @@ layers:
   - ''
   - AC DESKTOP SHOW ALL WINDOWS
   - PAGE UP
-  - Gui+LEFT ARROW
+  - Sft+Ctl+TAB
   - ↑
-  - Gui+RIGHT ARROW
+  - Ctl+RIGHT ARROW
   - PAGE DOWN
   - ''
   - ''
   - ''
   - {type: held}
   - AC DESKTOP SHOW ALL APPLICATIONS
-  - TAB
+  - Gui+LEFT ARROW
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - LEFT GUI
+  - Gui+RIGHT ARROW
   - LEFT SHIFT
   - ''
   - ''
