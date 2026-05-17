@@ -185,8 +185,8 @@
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&none                 &none   &none   &none   &none                          &kp PAGE_UP      &kp HOME         &kp UP          &kp END          &kp PAGE_DOWN
-&none                 &none   &none   &kp A   &none                          &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ALT
+&none                 &none   &none   &none   &none                          &kp PAGE_UP      &kp LC(LS(TAB))  &kp UP          &kp LC(TAB)      &kp PAGE_DOWN
+&none                 &none   &none   &kp A   &none                          &kp HOME         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
 &mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                          &copy_paste_win  &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &kp LA(F4)
 &trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &kp LG(LS(S))
             >;
