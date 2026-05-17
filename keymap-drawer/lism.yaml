@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LEFT GUI}
   - S
   - D
-  - F
+  - {t: F, h: Cursor Layer_MacBook}
   - G
   - H
   - J
@@ -57,7 +57,7 @@ layers:
   - {t: A, h: LCTRL}
   - S
   - D
-  - F
+  - {t: F, h: Cursor Layer_Windows}
   - G
   - H
   - J
@@ -100,7 +100,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - AC DESKTOP SHOW ALL APPLICATIONS
   - TAB
   - LEFT ARROW
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - ''
   - ''
   - ''
-  - A
+  - {t: A, type: held}
   - ''
   - TAB
   - LEFT ARROW
@@ -167,7 +167,7 @@ layers:
   - TAB
   - {t: ▽, type: trans}
   - DEL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -394,3 +394,5 @@ combos:
   k: ESC
 - p: [21, 22]
   k: F10
+- p: [17, 18]
+  k: Scroll Layer
