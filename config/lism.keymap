@@ -138,6 +138,11 @@
             bindings = <&kp F10>;
             key-positions = <21 22>;
         };
+
+        Layer9 {
+            bindings = <&mo 9>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
@@ -147,7 +152,7 @@
             display-name = "Default Layer";
             bindings = <
 &kp Q             &kp W         &kp E                    &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 9 P
-&mt LEFT_GUI A    &kp S         &kp D                    &kp F            &kp G                                     &kp H        &kp J           &kp K         &kp L        &lt 9 MINUS
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                     &kp H        &kp J           &kp K         &kp L        &lt 9 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
 &mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
             >;
@@ -159,7 +164,7 @@
             display-name = "Default Layer_Windows";
             bindings = <
 &kp Q             &kp W         &kp E                 &kp R            &kp T                                     &kp Y        &kp U           &kp I         &kp O        &lt 9 P
-&mt LCTRL A       &kp S         &kp D                 &kp F            &kp G                                     &kp H        &kp J           &kp K         &kp L        &lt 9 MINUS
+&mt LCTRL A       &kp S         &kp D                 &lt 3 F          &kp G                                     &kp H        &kp J           &kp K         &kp L        &lt 9 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
 &mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kana    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
             >;
