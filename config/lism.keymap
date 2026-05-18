@@ -253,5 +253,15 @@
 &trans  &trans   &trans   &trans   &trans       &trans    &trans  &trans       &trans        &trans         &trans    &trans
             >;
         };
+
+        layer_10 {
+            display-name = "Scroll Layer";
+            bindings = <
+&none   &none    &none    &none    &none                          &none        &kp LA(LEFT)  &kp LA(RIGHT)  &none     &none
+&none   &kp F22  &kp F23  &kp F24  &none                          &none        &mkp MB1      &mkp MB3       &mkp MB2  &none
+&none   &none    &none    &none    &kp JP_EISU                    &kp JP_KANA  &mkp MB4      &none          &mkp MB5  &none
+&trans  &trans   &trans   &trans   &trans       &trans    &trans  &trans       &trans        &trans         &trans    &trans
+            >;
+        };
     };
 };
