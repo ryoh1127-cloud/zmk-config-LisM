@@ -9,7 +9,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: Scroll Layer}
   - {t: P, h: Scroll Layer}
   - {t: A, h: LEFT GUI}
   - S
@@ -35,7 +35,7 @@ layers:
   - LEFT ALT
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
-  - {t: SPACE, h: Mark Layer}
+  - {t: Sft+SPACE, h: Mark Layer}
   - '&eisu_kana'
   - BS
   - {t: ENTER, h: Cursor Layer_MacBook}
@@ -52,7 +52,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: Scroll Layer}
   - {t: P, h: Scroll Layer}
   - {t: A, h: LCTRL}
   - S
@@ -351,10 +351,10 @@ layers:
   - ''
   - ''
   - ''
-  - Alt+←
-  - Alt+→
+  - ''
   - ''
   - {type: held}
+  - ''
   - ''
   - F22
   - F23
