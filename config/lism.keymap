@@ -346,22 +346,22 @@
 
     prev_tab_l11 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LC(LS(TAB))>;
+        bindings = <&kp LC(TAB)>;
     };
 
     next_tab_l11 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LC(TAB)>;
+        bindings = <&kp LC(LS(TAB))>;
     };
 
     Create_tab_l11 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LG(T)>;
+        bindings = <&kp LG(W)>;
     };
 
     close_tab_l11 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LG(W)>;
+        bindings = <&kp LG(T)>;
     };
 };
 
@@ -377,22 +377,22 @@
 
     prev_tab_l12 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LC(LS(TAB))>;
+        bindings = <&kp LC(TAB)>;
     };
 
     next_tab_l12 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LC(TAB)>;
+        bindings = <&kp LC(LS(TAB))>;
     };
 
     Create_tab_l12 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LC(T)>;
+        bindings = <&kp LC(W)>;
     };
 
     close_tab_l12 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LC(W)>;
+        bindings = <&kp LC(T)>;
     };
 };
 
@@ -408,22 +408,22 @@
 
     vdesk_prev_13 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LC(LEFT)>;
+        bindings = <&kp LC(RIGHT)>;
     };
 
     vdesk_next_13 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LC(RIGHT)>;
+        bindings = <&kp LC(LEFT)>;
     };
 
     view_window_13 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LC(UP)>;
+        bindings = <&kp LC(DOWN)>;
     };
 
     view_application_13 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LC(DOWN)>;
+        bindings = <&kp LC(UP)>;
     };
 };
 
@@ -439,22 +439,22 @@
 
     vdesk_prev_14 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LG(LC(LEFT))>;
+        bindings = <&kp LG(LC(RIGHT))>;
     };
 
     vdesk_next_14 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LG(LC(RIGHT))>;
+        bindings = <&kp LG(LC(LEFT))>;
     };
 
     view_window_14 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LG(TAB)>;
+        bindings = <&kp LG(D)>;
     };
 
     view_application_14 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LG(D)>;
+        bindings = <&kp LG(TAB)>;
     };
 };
 
@@ -470,22 +470,22 @@
 
     copy_15 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LG(C)>;
+        bindings = <&kp LG(V)>;
     };
 
     paste_15 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LG(V)>;
+        bindings = <&kp LG(C)>;
     };
 
     focus_url_15 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LG(L)>;
+        bindings = <&kp LG(SPACE)>;
     };
 
     search_15 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LG(SPACE)>;
+        bindings = <&kp LG(L)>;
     };
 };
 
@@ -501,21 +501,21 @@
 
     copy_16 {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LC(C)>;
+        bindings = <&kp LC(V)>;
     };
 
     paste_16 {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp LC(V)>;
+        bindings = <&kp LC(C)>;
     };
 
     focus_url_16 {
         pattern = <GESTURE_UP>;
-        bindings = <&kp LC(L)>;
+        bindings = <&kp LC(GUI)>;
     };
 
     search_16 {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp LGUI>;
+        bindings = <&kp LC(L)>;
     };
 };
