@@ -120,6 +120,15 @@
             tapping-term-ms = <250>;
             bindings = <&mt LC(X) LC(C)>, <&kp LC(V)>;
         };
+
+        missionControl: missionControl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MISSIONCONTROL";
+            #binding-cells = <0>;
+            bindings = <&kp LC(UP_ARROW)>, <&kp LC(DOWN_ARROW)>;
+
+            tapping-term-ms = <250>;
+        };
     };
 
     combos {
@@ -200,7 +209,7 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP     &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &trans           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)
+&kp PAGE_UP     &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &trans           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
 &kp PAGE_DOWN   &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS                        &kp LC(A)        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LC(E)
 &kp LEFT_SHIFT  &none   &none   &none   &none                                                         &copy_paste_mac  &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
 &trans          &trans  &trans  &trans  &trans                                  &trans    &kp DELETE  &trans           &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
