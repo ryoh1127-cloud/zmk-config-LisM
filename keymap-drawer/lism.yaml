@@ -660,3 +660,5 @@ combos:
 - p: [8, 9]
   k: {t: Alt+TAB, h: '14'}
   l: [Default Layer_Windows]
+- p: [28, 27]
+  k: Gui+SPACE
