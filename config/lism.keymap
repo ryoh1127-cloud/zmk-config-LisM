@@ -136,7 +136,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(TAB)>, <&kp LG(D)>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
         };
     };
 
