@@ -96,7 +96,7 @@ layers:
   - Ctl+LEFT ARROW
   - ↑
   - Ctl+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - PAGE DOWN
   - ''
   - ''
@@ -139,7 +139,7 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - ↑
   - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - Gui+TAB
   - PAGE DOWN
   - ''
   - ''
