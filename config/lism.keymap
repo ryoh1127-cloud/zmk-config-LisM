@@ -238,25 +238,25 @@
         command_c {
             bindings = <&command_c>;
             key-positions = <16 17>;
-            layers = <4>;
+            layers = <2>;
         };
 
         command_v {
             bindings = <&command_v>;
             key-positions = <7 6>;
-            layers = <4>;
+            layers = <2>;
         };
 
         control_c {
             bindings = <&control_c>;
             key-positions = <16 17>;
-            layers = <5>;
+            layers = <3>;
         };
 
         control_v {
             bindings = <&control_v>;
             key-positions = <7 6>;
-            layers = <5>;
+            layers = <3>;
         };
     };
 
