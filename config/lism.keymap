@@ -188,20 +188,20 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&none           &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &kp PAGE_UP      &kp LS(LC(TAB))  &kp UP          &kp LC(TAB)      &kp PAGE_DOWN
-&none           &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS                        &kp LC(A)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(E)
-&kp LEFT_SHIFT  &none   &none   &none   &none                                                         &copy_paste_mac  &kp LS(LC(TAB))  &kp LG(W)       &kp LC(TAB)      &copy_paste_mac
-&trans          &trans  &trans  &trans  &trans                                  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &kp LG(LS(NUMBER_4))
+&kp PAGE_UP     &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &trans           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &trans
+&kp PAGE_DOWN   &none   &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS                        &kp LC(A)        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LC(E)
+&kp LEFT_SHIFT  &none   &none   &none   &none                                                         &copy_paste_mac  &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
+&trans          &trans  &trans  &trans  &trans                                  &trans    &kp DELETE  &trans           &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
         };
 
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&none                 &none   &none   &none   &none                          &kp PAGE_UP      &kp LC(LS(TAB))  &kp UP          &kp LC(TAB)      &kp PAGE_DOWN
-&none                 &none   &none   &kp A   &none                          &kp HOME         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                          &copy_paste_win  &kp LS(LC(TAB))  &kp LC(W)       &kp LC(TAB)      &kp LA(F4)
-&trans                &trans  &trans  &trans  &kp TAB  &trans    &kp DELETE  &trans           &trans           &trans          &trans           &kp LG(LS(S))
+&kp PAGE_UP           &none   &none   &none   &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &trans
+&kp PAGE_DOWN         &none   &none   &kp A   &kp LG(D)                          &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&mt LEFT_SHIFT LC(Z)  &none   &none   &none   &none                              &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
+&trans                &trans  &trans  &trans  &kp TAB      &trans    &kp DELETE  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
             >;
         };
 
@@ -210,7 +210,7 @@
             bindings = <
 &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp JP_YEN     &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT
 &kp AT_SIGN       &kp HASH           &kp DOLLAR       &kp CARET      &kp TILDE                           &kp SEMICOLON  &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp LEFT_SHIFT    &kp GRAVE          &none            &kp SLASH      &kp BACKSLASH                       &kp COLON      &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
+&kp LEFT_SHIFT    &kp GRAVE          &kp QUESTION     &kp SLASH      &kp BACKSLASH                       &kp COLON      &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
 &trans            &trans             &trans           &trans         &kp TAB           &trans    &trans  &trans         &trans         &trans                &kp C_VOLUME_UP        &kp C_VOLUME_DOWN
             >;
         };
@@ -220,7 +220,7 @@
             bindings = <
 &kp AMPERSAND     &kp AT          &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                    &kp 0x89          &none      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp PERCENT
 &kp LEFT_BRACKET  &kp HASH        &kp DOLLAR       &kp EQUAL      &kp PLUS                            &kp SEMICOLON     &kp COLON  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(0x89)
-&kp LEFT_SHIFT    &kp LEFT_BRACE  &none            &kp SLASH      &kp BACKSLASH                       &kp SINGLE_QUOTE  &kp CARET  &kp RIGHT_BRACE    &kp PIPE              &kp LEFT_SHIFT
+&kp LEFT_SHIFT    &kp LEFT_BRACE  &kp QUESTION     &kp SLASH      &kp BACKSLASH                       &kp SINGLE_QUOTE  &kp CARET  &kp RIGHT_BRACE    &kp PIPE              &kp LEFT_SHIFT
 &trans            &trans          &trans           &trans         &kp TAB           &trans    &trans  &trans            &trans     &trans             &kp C_VOLUME_UP       &kp C_VOLUME_DOWN
             >;
         };
