@@ -666,3 +666,9 @@ combos:
 - p: [7, 8]
   k: LEFT GUI
   l: [Default Layer_Windows]
+- p: [7, 8]
+  k: '&missionControl'
+  l: [Cursor Layer_MacBook]
+- p: [7, 8]
+  k: '&window_tab'
+  l: [Cursor Layer_Windows]
