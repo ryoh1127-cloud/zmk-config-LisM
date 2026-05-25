@@ -159,7 +159,14 @@
 
         Spotlight {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <28 27>;
+            key-positions = <7 8>;
+            layers = <0>;
+        };
+
+        search {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <7 8>;
+            layers = <1>;
         };
     };
 
