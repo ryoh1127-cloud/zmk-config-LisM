@@ -102,11 +102,11 @@ layers:
   - ''
   - {type: held}
   - AC DESKTOP SHOW ALL APPLICATIONS
-  - Gui+LEFT ARROW
+  - Ctl+A
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Gui+RIGHT ARROW
+  - Ctl+E
   - LEFT SHIFT
   - ''
   - ''
