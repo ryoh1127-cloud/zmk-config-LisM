@@ -1,3 +1,6 @@
+#include <scroll-snap.dtsi>
+#include <input/processors.dtsi>
+
 &spi0 {
     status = "okay";
 
@@ -83,13 +86,15 @@
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_scroll_scaler 1 16>;
+            <&zip_scroll_snap>;
     };
 // レイヤー10のときにY軸反転スクロール(Windows用)
     scroller_reverse {
         layers = <10>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_scaler 1 16>; // 必要に応じて感度を調整してください（現在は1/16倍）
+            <&zip_scroll_scaler 1 16>;
+            <&zip_scroll_snap>;
     };
 };
 
