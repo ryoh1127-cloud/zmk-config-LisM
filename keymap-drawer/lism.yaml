@@ -87,17 +87,17 @@ layers:
   - LANGUAGE 1
   - {t: ESC, h: Device Layer}
   Cursor Layer_MacBook:
-  - ''
+  - PAGE UP
   - ''
   - ''
   - ''
   - AC DESKTOP SHOW ALL WINDOWS
-  - PAGE UP
-  - Sft+Ctl+TAB
+  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
   - ↑
-  - Ctl+TAB
+  - Ctl+RIGHT ARROW
+  - {t: ▽, type: trans}
   - PAGE DOWN
-  - ''
   - ''
   - ''
   - {type: held}
@@ -130,21 +130,21 @@ layers:
   - {t: ▽, type: trans}
   - Gui+Sft+4
   Cursor Layer_Windows:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - PAGE UP
-  - Ctl+Sft+TAB
+  - ''
+  - ''
+  - ''
+  - Gui+TAB
+  - Alt+F4
+  - Ctl+Gui+LEFT ARROW
   - ↑
-  - Ctl+TAB
+  - Ctl+Gui+RIGHT ARROW
+  - {t: ▽, type: trans}
   - PAGE DOWN
   - ''
   - ''
-  - ''
   - {t: A, type: held}
-  - ''
+  - Gui+D
   - HOME
   - LEFT ARROW
   - DOWN ARROW
@@ -195,7 +195,7 @@ layers:
   - Sft+0x89
   - LEFT SHIFT
   - '{'
-  - ''
+  - QUESTION
   - /
   - \
   - ''''
