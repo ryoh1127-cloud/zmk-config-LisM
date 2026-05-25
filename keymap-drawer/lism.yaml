@@ -96,7 +96,7 @@ layers:
   - Ctl+LEFT ARROW
   - ↑
   - Ctl+RIGHT ARROW
-  - Ctl+UP ARROW
+  - '&missionControl'
   - PAGE DOWN
   - ''
   - ''
