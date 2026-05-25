@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/4mplelab
     - name: kot149
       url-base: https://github.com/kot149
+    - name: kot149
+      url-base: https://github.com/kot149
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,6 +27,9 @@ manifest:
       remote: 4mplelab
       revision: main
     - name: zmk-mouse-gesture
+      remote: kot149
+      revision: v1
+    - name: zmk-scroll-snap
       remote: kot149
       revision: v1
   self:
