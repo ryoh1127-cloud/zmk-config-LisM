@@ -85,7 +85,7 @@
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_scroll_scaler 1 16>;
+            <&zip_scroll_scaler 1 16>,
             <&zip_scroll_snap>;
     };
 // レイヤー10のときにY軸反転スクロール(Windows用)
@@ -93,7 +93,7 @@
         layers = <10>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_scaler 1 16>;
+            <&zip_scroll_scaler 1 16>,
             <&zip_scroll_snap>;
     };
 };
