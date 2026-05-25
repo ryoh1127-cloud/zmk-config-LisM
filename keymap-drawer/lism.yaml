@@ -92,7 +92,7 @@ layers:
   - ''
   - ''
   - AC DESKTOP SHOW ALL WINDOWS
-  - {t: ▽, type: trans}
+  - Gui+W
   - Ctl+LEFT ARROW
   - ↑
   - Ctl+RIGHT ARROW
