@@ -138,6 +138,42 @@
 
             tapping-term-ms = <300>;
         };
+
+        command_c: command_c {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COMMAND_C";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C)>, <&kp LG(X)>;
+
+            tapping-term-ms = <250>;
+        };
+
+        command_v: command_v {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COMMAND_V";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>, <&kp LG(LS(V))>;
+
+            tapping-term-ms = <250>;
+        };
+
+        control_c: control_c {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CONTROL_C";
+            #binding-cells = <0>;
+            bindings = <&kp LC(C)>, <&kp LC(X)>;
+
+            tapping-term-ms = <250>;
+        };
+
+        control_v: control_v {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CONTROL_V";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(V))>, <&kp LG(LS(V))>;
+
+            tapping-term-ms = <250>;
+        };
     };
 
     combos {
@@ -198,6 +234,30 @@
             key-positions = <7 8>;
             layers = <3>;
         };
+
+        command_c {
+            bindings = <&command_c>;
+            key-positions = <16 17>;
+            layers = <4>;
+        };
+
+        command_v {
+            bindings = <&command_v>;
+            key-positions = <7 6>;
+            layers = <4>;
+        };
+
+        control_c {
+            bindings = <&control_c>;
+            key-positions = <16 17>;
+            layers = <5>;
+        };
+
+        control_v {
+            bindings = <&control_v>;
+            key-positions = <7 6>;
+            layers = <5>;
+        };
     };
 
     keymap {
@@ -230,10 +290,10 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP     &kp PAGE_DOWN  &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &trans           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans          &none          &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS                        &kp LC(A)        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LC(E)
-&kp LEFT_SHIFT  &none          &none   &none   &none                                                         &copy_paste_mac  &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
-&trans          &trans         &trans  &trans  &trans                                  &trans    &kp DELETE  &trans           &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
+&kp PAGE_UP      &kp PAGE_DOWN  &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS                             &trans           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&trans           &none          &none   &none   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS                        &kp LC(A)        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LC(E)
+&mt LSHFT LG(Z)  &kp LG(Y)      &none   &none   &none                                                         &copy_paste_mac  &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
+&trans           &trans         &trans  &trans  &trans                                  &trans    &kp DELETE  &trans           &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
         };
 
@@ -242,7 +302,7 @@
             bindings = <
 &kp PAGE_UP           &kp PAGE_DOWN  &none   &none   &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &window_tab
 &trans                &none          &none   &kp A   &kp LG(D)                          &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
-&mt LEFT_SHIFT LC(Z)  &none          &none   &none   &none                              &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
+&mt LEFT_SHIFT LC(Z)  &kp LC(Y)      &none   &none   &none                              &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
 &trans                &trans         &trans  &trans  &kp TAB      &trans    &kp DELETE  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
             >;
         };
