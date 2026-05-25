@@ -88,7 +88,7 @@ layers:
   - {t: ESC, h: Device Layer}
   Cursor Layer_MacBook:
   - PAGE UP
-  - ''
+  - PAGE DOWN
   - ''
   - ''
   - AC DESKTOP SHOW ALL WINDOWS
@@ -97,7 +97,7 @@ layers:
   - ↑
   - Ctl+RIGHT ARROW
   - '&missionControl'
-  - PAGE DOWN
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}
@@ -131,7 +131,7 @@ layers:
   - Gui+Sft+4
   Cursor Layer_Windows:
   - PAGE UP
-  - ''
+  - PAGE DOWN
   - ''
   - ''
   - Gui+TAB
@@ -139,8 +139,8 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - ↑
   - Ctl+Gui+RIGHT ARROW
-  - Gui+TAB
-  - PAGE DOWN
+  - '&window_tab'
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {t: A, type: held}
