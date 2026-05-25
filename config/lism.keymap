@@ -186,6 +186,18 @@
             key-positions = <7 8>;
             layers = <1>;
         };
+
+        missioncontrol {
+            bindings = <&missionControl>;
+            key-positions = <7 8>;
+            layers = <2>;
+        };
+
+        window_tab {
+            bindings = <&window_tab>;
+            key-positions = <7 8>;
+            layers = <3>;
+        };
     };
 
     keymap {
