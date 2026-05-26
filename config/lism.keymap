@@ -237,7 +237,7 @@
 
         command_c {
             bindings = <&command_c>;
-            key-positions = <27 26>;
+            key-positions = <15 16>;
             layers = <2>;
         };
 
@@ -249,7 +249,7 @@
 
         control_c {
             bindings = <&control_c>;
-            key-positions = <27 26>;
+            key-positions = <15 16>;
             layers = <3>;
         };
 
