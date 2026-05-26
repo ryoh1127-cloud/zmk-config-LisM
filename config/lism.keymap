@@ -239,6 +239,7 @@
         command_c {
             bindings = <&command_c>;
             key-positions = <17 18>;
+            layers = <2>;
         };
 
         command_v {
