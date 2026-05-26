@@ -197,6 +197,7 @@
         TAB_right {
             bindings = <&kp TAB>;
             key-positions = <18 17>;
+            layers = <0 1>;
         };
 
         layer13 {
@@ -268,6 +269,18 @@
         control_z {
             bindings = <&kp LC(Z)>;
             key-positions = <20 21>;
+            layers = <1>;
+        };
+
+        command_y {
+            bindings = <&kp LG(Y)>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
+
+        control_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <21 22>;
             layers = <1>;
         };
     };
