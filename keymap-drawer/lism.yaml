@@ -178,7 +178,7 @@ layers:
   - '!'
   - LESS THAN
   - GREATER THAN
-  - Sft+-
+  - Sft+INT RO
   - ''
   - ']'
   - \
