@@ -675,6 +675,7 @@ combos:
   l: [Cursor Layer_Windows]
 - p: [17, 18]
   k: '&command_c'
+  l: [Cursor Layer_MacBook]
 - p: [27, 28]
   k: '&command_v'
   l: [Cursor Layer_MacBook]
