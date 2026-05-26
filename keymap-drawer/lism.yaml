@@ -654,6 +654,7 @@ combos:
   k: F10
 - p: [18, 17]
   k: TAB
+  l: [Default Layer, Default Layer_Windows]
 - p: [8, 9]
   k: {t: Gui+TAB, h: '13'}
   l: [Default Layer]
@@ -689,4 +690,10 @@ combos:
   l: [Default Layer]
 - p: [20, 21]
   k: Ctl+Z
+  l: [Default Layer_Windows]
+- p: [21, 22]
+  k: Gui+Y
+  l: [Default Layer]
+- p: [21, 22]
+  k: Ctl+Y
   l: [Default Layer_Windows]
