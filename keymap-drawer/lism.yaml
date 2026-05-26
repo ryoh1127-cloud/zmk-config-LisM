@@ -650,7 +650,7 @@ combos:
   k: TAB
 - p: [1, 2]
   k: ESC
-- p: [21, 22]
+- p: [22, 23]
   k: F10
 - p: [18, 17]
   k: TAB
@@ -673,16 +673,15 @@ combos:
 - p: [7, 8]
   k: '&window_tab'
   l: [Cursor Layer_Windows]
-- p: [16, 17]
-  k: '&command_c'
-  l: [Cursor Layer_MacBook]
 - p: [17, 18]
+  k: '&command_c'
+- p: [27, 28]
   k: '&command_v'
   l: [Cursor Layer_MacBook]
-- p: [16, 17]
+- p: [17, 18]
   k: '&control_c'
   l: [Cursor Layer_Windows]
-- p: [17, 18]
+- p: [27, 28]
   k: '&control_v'
   l: [Cursor Layer_Windows]
 - p: [20, 21]
