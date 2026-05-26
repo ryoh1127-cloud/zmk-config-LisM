@@ -170,7 +170,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CONTROL_V";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(V))>, <&kp LG(LS(V))>;
+            bindings = <&kp LC(LS(V))>, <&kp LG(V)>;
 
             tapping-term-ms = <250>;
         };
