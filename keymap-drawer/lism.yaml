@@ -673,16 +673,16 @@ combos:
 - p: [7, 8]
   k: '&window_tab'
   l: [Cursor Layer_Windows]
-- p: [17, 18]
+- p: [17, 16]
   k: '&command_c'
   l: [Cursor Layer_MacBook]
-- p: [27, 28]
+- p: [17, 18]
   k: '&command_v'
   l: [Cursor Layer_MacBook]
-- p: [17, 18]
+- p: [17, 16]
   k: '&control_c'
   l: [Cursor Layer_Windows]
-- p: [27, 28]
+- p: [17, 18]
   k: '&control_v'
   l: [Cursor Layer_Windows]
 - p: [20, 21]
