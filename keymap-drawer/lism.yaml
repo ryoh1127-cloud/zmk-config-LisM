@@ -178,7 +178,7 @@ layers:
   - '!'
   - LESS THAN
   - GREATER THAN
-  - '0x89'
+  - Sft+-
   - ''
   - ']'
   - \
@@ -672,15 +672,21 @@ combos:
 - p: [7, 8]
   k: '&window_tab'
   l: [Cursor Layer_Windows]
-- p: [15, 16]
+- p: [16, 17]
   k: '&command_c'
   l: [Cursor Layer_MacBook]
-- p: [17, 16]
+- p: [17, 18]
   k: '&command_v'
   l: [Cursor Layer_MacBook]
-- p: [15, 16]
+- p: [16, 17]
   k: '&control_c'
   l: [Cursor Layer_Windows]
-- p: [16, 17]
+- p: [17, 18]
   k: '&control_v'
   l: [Cursor Layer_Windows]
+- p: [20, 21]
+  k: Gui+Z
+  l: [Default Layer]
+- p: [20, 21]
+  k: Ctl+Z
+  l: [Default Layer_Windows]
