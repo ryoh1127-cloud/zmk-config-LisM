@@ -34,12 +34,16 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 
 &mt {
+    tapping-term-ms = <200>; /* タップ判定時間 */
+    flavor = "balanced";
+    quick-tap-ms = <250>; /* クイックタップ時間(連続タップ判定時間) */
+};
+
+&lt {
     tapping-term-ms = <180>;
     flavor = "balanced";
     quick-tap-ms = <250>;
 };
-
-&lt { quick-tap-ms = <250>; };
 
 / {
     macros {
