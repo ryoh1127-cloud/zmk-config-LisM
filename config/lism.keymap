@@ -199,7 +199,7 @@
         TAB_right {
             bindings = <&kp TAB>;
             key-positions = <18 17>;
-            layers = <0 1>;
+            layers = <0 1 8>;
         };
 
         layer13 {
