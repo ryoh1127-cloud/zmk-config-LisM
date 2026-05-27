@@ -334,6 +334,8 @@
 &mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &none                              &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
 &trans                &trans                  &trans              &trans                   &kp TAB      &trans    &kp DELETE  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
             >;
+
+            sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
         };
 
         layer_4 {
@@ -344,6 +346,8 @@
 &kp LEFT_SHIFT    &kp GRAVE          &kp QUESTION     &kp SLASH      &kp BACKSLASH                       &kp COLON       &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
 &trans            &trans             &trans           &trans         &kp TAB           &trans    &trans  &trans          &trans         &trans                &kp C_VOLUME_UP        &kp C_VOLUME_DOWN
             >;
+
+            sensor-bindings = <&encoder_kp LC(LS(TAB)) LC(TAB)>;
         };
 
         layer_5 {
