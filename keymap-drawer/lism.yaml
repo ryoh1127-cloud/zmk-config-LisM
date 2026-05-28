@@ -108,7 +108,7 @@ layers:
   - RIGHT ARROW
   - Gui+RIGHT ARROW
   - {t: Gui+Z, h: LSHFT}
-  - Gui+Y
+  - Gui+Sft+Z
   - ''
   - ''
   - ''
@@ -692,7 +692,7 @@ combos:
   k: Ctl+Z
   l: [Default Layer_Windows]
 - p: [21, 22]
-  k: Gui+Y
+  k: Gui+Sft+Z
   l: [Default Layer]
 - p: [21, 22]
   k: Ctl+Y
