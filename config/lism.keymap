@@ -319,7 +319,7 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &none   &none   &kp LC(UP_ARROW)                          &kp LG(W)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&kp PAGE_UP      &kp PAGE_DOWN  &none   &none   &kp LC(UP_ARROW)                          &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
 &trans           &none          &none   &none   &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
 &mt LSHFT LG(Z)  &kp LG(LS(Z))  &none   &none   &none                                     &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &copy_paste_mac
 &trans           &trans         &trans  &trans  &trans              &trans    &kp DELETE  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
