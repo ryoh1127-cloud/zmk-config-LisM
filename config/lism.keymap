@@ -400,6 +400,8 @@
 &none   &none    &none    &none    &kp JP_EISU                    &kp JP_KANA  &mkp MB4  &none     &mkp MB5  &none
 &trans  &trans   &trans   &trans   &trans       &trans    &trans  &trans       &trans    &trans    &trans    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         layer_10 {
@@ -419,6 +421,8 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&encoder_kp UP_ARROW DOWN_ARROW>;
         };
 
         layer_12 {
