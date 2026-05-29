@@ -213,8 +213,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME UP
   - VOLUME DOWN
+  - VOLUME UP
   Number Layer:
   - F9
   - F10
