@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: TAB, type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
