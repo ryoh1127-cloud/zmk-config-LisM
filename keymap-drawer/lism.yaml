@@ -111,12 +111,12 @@ layers:
   - Gui+Sft+Z
   - ''
   - ''
-  - ''
+  - Gui+Q
   - '&copy_paste_mac'
   - Sft+Ctl+TAB
   - Gui+W
   - Ctl+TAB
-  - '&copy_paste_mac'
+  - Gui+Q
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,7 +154,7 @@ layers:
   - Ctl+Y
   - ''
   - ''
-  - ''
+  - Alt+F4
   - '&copy_paste_win'
   - Sft+Ctl+TAB
   - Ctl+W
