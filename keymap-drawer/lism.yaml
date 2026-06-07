@@ -122,8 +122,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+DEL
   - {t: ▽, type: trans}
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
