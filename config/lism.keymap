@@ -92,7 +92,7 @@
                 <&kp LCTRL &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp ENTER>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LCTRL &kp LEFT_ALT>;
 
             label = "WINDOWMAXIMIZE";
@@ -106,7 +106,7 @@
                 <&kp LCTRL &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp LEFT_ARROW>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LCTRL &kp LEFT_ALT>;
 
             label = "WINDOWLEFT";
@@ -120,7 +120,7 @@
                 <&kp LCTRL &kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp RIGHT_ARROW>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LCTRL &kp LEFT_ALT>;
 
             label = "WINDOWRIGHT";
@@ -362,7 +362,7 @@
             display-name = "Cursor Layer_MacBook";
             bindings = <
 &kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                          &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans           &WindowLeft    &kp LG(F3)       &Windowright  &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
+&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
 &mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                 &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
 &trans           &trans         &trans           &trans        &trans              &trans    &kp DELETE  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
