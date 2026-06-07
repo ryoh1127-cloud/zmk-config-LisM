@@ -83,6 +83,48 @@
 
             label = "&BT_IPAD";
         };
+
+        WindowMaximize: WindowMaximize {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp ENTER>,
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>;
+
+            label = "WINDOWMAXIMIZE";
+        };
+
+        WindowLeft: WindowLeft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp LEFT_ARROW>,
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>;
+
+            label = "WINDOWLEFT";
+        };
+
+        Windowright: Windowright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp RIGHT_ARROW>,
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_ALT>;
+
+            label = "WINDOWRIGHT";
+        };
     };
 
     behaviors {
@@ -319,10 +361,10 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &none   &none   &kp LC(UP_ARROW)                          &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans           &none          &none   &none   &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
-&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none   &none   &kp LG(Q)                                 &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
-&trans           &trans         &trans  &trans  &trans              &trans    &kp DELETE  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
+&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                          &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&trans           &WindowLeft    &kp LG(F3)       &Windowright  &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
+&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                 &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
+&trans           &trans         &trans           &trans        &trans              &trans    &kp DELETE  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
@@ -346,7 +388,7 @@
 &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                        &kp UNDERSCORE  &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT
 &kp AT_SIGN       &kp HASH           &kp DOLLAR       &kp CARET      &kp TILDE                               &kp SEMICOLON   &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &kp LEFT_SHIFT    &kp GRAVE          &kp QUESTION     &kp SLASH      &kp BACKSLASH                           &kp COLON       &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LSHFT
-&trans            &trans             &trans           &trans         &kp TAB           &trans    &kp DELETE  &trans          &trans         &trans                &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
+&kp ESC           &trans             &trans           &trans         &trans            &trans    &kp DELETE  &trans          &trans         &trans                &kp C_VOLUME_DOWN      &kp C_VOLUME_UP
             >;
 
             sensor-bindings = <&encoder_kp LC(LS(TAB)) LC(TAB)>;
@@ -358,7 +400,7 @@
 &kp AMPERSAND     &kp AT          &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN                        &kp LS(INT_RO)    &none      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp PERCENT
 &kp LEFT_BRACKET  &kp HASH        &kp DOLLAR       &kp EQUAL      &kp PLUS                                &kp SEMICOLON     &kp COLON  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(0x89)
 &kp LEFT_SHIFT    &kp LEFT_BRACE  &kp QUESTION     &kp SLASH      &kp BACKSLASH                           &kp SINGLE_QUOTE  &kp CARET  &kp RIGHT_BRACE    &kp PIPE              &kp LEFT_SHIFT
-&trans            &trans          &trans           &trans         &kp TAB           &trans    &kp DELETE  &trans            &trans     &trans             &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
+&kp ESC           &trans          &trans           &trans         &trans            &trans    &kp DELETE  &trans            &trans     &trans             &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
             >;
         };
 
