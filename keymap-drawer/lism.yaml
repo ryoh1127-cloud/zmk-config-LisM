@@ -697,3 +697,5 @@ combos:
 - p: [21, 22]
   k: Ctl+Y
   l: [Default Layer_Windows]
+- p: [34, 35]
+  k: Device Layer
