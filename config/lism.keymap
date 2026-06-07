@@ -329,6 +329,11 @@
             key-positions = <21 22>;
             layers = <1>;
         };
+
+        Layer7 {
+            bindings = <&mo 7>;
+            key-positions = <34 35>;
+        };
     };
 
     keymap {
