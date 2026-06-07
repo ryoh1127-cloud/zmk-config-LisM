@@ -148,7 +148,7 @@
             #binding-cells = <0>;
             bindings = <&lt 6 LANGUAGE_1>, <&kp LANGUAGE_2>;
 
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
         };
 
         copy_paste_mac: copy_paste_mac {
@@ -366,10 +366,10 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                          &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                        &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
-&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                 &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
-&trans           &trans         &trans           &trans        &trans              &trans    &kp DELETE  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
+&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                              &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                            &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
+&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                     &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
+&trans           &trans         &trans           &trans        &trans              &kp LG(DELETE)    &trans  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
@@ -378,10 +378,10 @@
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &window_tab
-&trans                &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &kp LG(D)                          &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
-&mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                         &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
-&trans                &trans                  &trans              &trans                   &kp TAB      &trans    &kp DELETE  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
+&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                    &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &window_tab
+&trans                &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &kp LG(D)                      &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                     &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
+&trans                &trans                  &trans              &trans                   &kp TAB      &trans    &trans  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
