@@ -99,7 +99,7 @@ layers:
   - '&missionControl'
   - {t: ▽, type: trans}
   - '&WindowLeft'
-  - Gui+F3
+  - F11
   - {t: '&Windowright', type: held}
   - Ctl+DOWN ARROW
   - Gui+LEFT ARROW
