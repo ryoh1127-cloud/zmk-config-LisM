@@ -376,10 +376,10 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -623,10 +623,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="112" y="140" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -800,7 +800,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(308, 196)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+DEL</text>
+<text x="0" y="0" class="key tap">Gui+BS</text>
 </g>
 <g transform="translate(420, 196)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -853,10 +853,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="616" y="84" class="combo tap"><tspan style="font-size: 70%">&amp;command_v</tspan></text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -1081,10 +1081,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="616" y="84" class="combo tap"><tspan style="font-size: 70%">&amp;control_v</tspan></text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -1287,10 +1287,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -1503,10 +1503,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -1688,10 +1688,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -1867,10 +1867,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="616" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -2054,10 +2054,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -2245,10 +2245,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -2436,10 +2436,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -2626,10 +2626,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -2816,10 +2816,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -3007,10 +3007,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
@@ -3198,10 +3198,10 @@ path.combo { stroke: #7f7f7f; }
 <text x="168" y="140" class="combo tap">F10</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="266" y="183" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <a href="#Device-Layer">
-<text x="280" y="196" class="combo tap layer-activator">
-<tspan x="280" dy="-0.6em">Device</tspan><tspan x="280" dy="1.2em">Layer</tspan>
+<text x="56" y="196" class="combo tap layer-activator">
+<tspan x="56" dy="-0.6em">Device</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
 </g>
