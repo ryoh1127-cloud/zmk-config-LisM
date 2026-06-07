@@ -89,7 +89,7 @@ layers:
   Cursor Layer_MacBook:
   - PAGE UP
   - PAGE DOWN
-  - ''
+  - '&WindowMaximize'
   - ''
   - Ctl+UP ARROW
   - Gui+Q
@@ -98,9 +98,9 @@ layers:
   - Ctl+RIGHT ARROW
   - '&missionControl'
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {type: held}
+  - '&WindowLeft'
+  - Gui+F3
+  - {t: '&Windowright', type: held}
   - Ctl+DOWN ARROW
   - Gui+LEFT ARROW
   - LEFT ARROW
@@ -203,11 +203,11 @@ layers:
   - '}'
   - '|'
   - LEFT SHIFT
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: TAB, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
