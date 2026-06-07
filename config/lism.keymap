@@ -148,7 +148,7 @@
             #binding-cells = <0>;
             bindings = <&lt 6 LANGUAGE_1>, <&kp LANGUAGE_2>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
         };
 
         copy_paste_mac: copy_paste_mac {
@@ -332,7 +332,7 @@
 
         Layer7 {
             bindings = <&mo 7>;
-            key-positions = <34 35>;
+            key-positions = <30 31>;
         };
     };
 
@@ -366,10 +366,10 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                              &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                            &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
-&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                     &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
-&trans           &trans         &trans           &trans        &trans              &kp LG(DELETE)    &trans  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
+&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                                 &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                               &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
+&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                        &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
+&trans           &trans         &trans           &trans        &trans              &kp LG(BACKSPACE)    &trans  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
