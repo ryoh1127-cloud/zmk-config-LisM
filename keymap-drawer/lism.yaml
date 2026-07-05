@@ -114,7 +114,7 @@ layers:
   - Gui+Q
   - '&copy_paste_mac'
   - Sft+Ctl+TAB
-  - Gui+W
+  - {t: Gui+W, h: Gui+Q}
   - Ctl+TAB
   - Gui+Q
   - {t: ▽, type: trans}
@@ -145,11 +145,11 @@ layers:
   - Gui+DOWN ARROW
   - {t: Gui+Sft+RIGHT ARROW, type: held}
   - Gui+D
-  - HOME
+  - {t: HOME, h: Sft+HOME}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - END
+  - {t: END, h: Sft+END}
   - {t: Ctl+Z, h: LEFT SHIFT}
   - Ctl+Y
   - ''
@@ -157,7 +157,7 @@ layers:
   - Alt+F4
   - '&copy_paste_win'
   - Sft+Ctl+TAB
-  - Ctl+W
+  - {t: Gui+W, h: Alt+F4}
   - Ctl+TAB
   - Alt+F4
   - {t: ▽, type: trans}
