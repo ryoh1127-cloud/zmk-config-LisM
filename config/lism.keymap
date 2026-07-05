@@ -236,6 +236,15 @@
 
             tapping-term-ms = <250>;
         };
+
+        mo_back_del: mo_back_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MO_BACK_DEL";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -358,10 +367,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W         &kp E                    &kp R            &kp T                                     &kp Y        &kp U           &lt 15 I      &lt 9 O      &lt 11 P
-&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                     &kp H        &kp J           &kp K         &kp L        &mt LEFT_GUI MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &kp BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
+&kp Q             &kp W         &kp E                    &kp R            &kp T                                    &kp Y        &kp U           &lt 15 I      &lt 9 O      &lt 11 P
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                    &kp H        &kp J           &kp K         &kp L        &mt LEFT_GUI MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                    &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
+&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &mo_back_del  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -382,10 +391,10 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                                 &kp LG(Q)           &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
-&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                               &kp LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LG(RIGHT_ARROW)
-&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                        &copy_paste_mac     &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
-&trans           &trans         &trans           &trans        &trans              &kp LG(BACKSPACE)    &trans  &trans              &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
+&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                                 &kp LG(Q)                              &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                               &mt LG(LS(LEFT_ARROW)) LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &mt LG(LS(RIGHT_ARROW)) LG(RIGHT_ARROW)
+&mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                        &copy_paste_mac                        &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
+&trans           &trans         &trans           &trans        &trans              &kp LG(BACKSPACE)    &trans  &trans                                 &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
