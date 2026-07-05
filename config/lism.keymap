@@ -398,10 +398,10 @@
         layer_1 {
             display-name = "Default Layer_Windows";
             bindings = <
-&kp Q             &kp W         &kp E                 &kp R            &kp T                                     &kp Y        &kp U           &lt 16 I      &lt 10 O     &lt 12 P
-&mt LCTRL A       &kp S         &kp D                 &lt 3 F          &kp G                                     &kp H        &kp J           &kp K         &kp L        &mt LEFT_ALT MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                     &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kana    &kp BACKSPACE  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
+&kp Q             &kp W         &kp E                 &kp R            &kp T                                    &kp Y        &kp U           &lt 16 I      &lt 10 O     &lt 12 P
+&mt LCTRL A       &kp S         &kp D                 &lt 3 F          &kp G                                    &kp H        &kp J           &kp K         &kp L        &mt LEFT_ALT MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                    &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
+&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kana    &mo_back_del  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -424,7 +424,7 @@
             bindings = <
 &kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)         &kp LC(LG(LEFT_ARROW))  &kp UP            &kp LC(LG(RIGHT_ARROW))  &win_swapper
 &trans                &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &kp LG(D)                          &mt LS(HOME) HOME  &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &mt LS(END) END
-&mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                         &copy_paste_win    &kp LS(LC(TAB))         &mt LA(F4) LG(W)  &kp LC(TAB)              &kp LA(F4)
+&mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                         &copy_paste_win    &kp LS(LC(TAB))         &mt LA(F4) LC(W)  &kp LC(TAB)              &kp LA(F4)
 &trans                &trans                  &trans              &trans                   &kp TAB      &alldelete    &trans  &trans             &trans                  &trans            &trans                   &kp LG(LS(S))
             >;
 
