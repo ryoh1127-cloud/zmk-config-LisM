@@ -37,7 +37,7 @@ layers:
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
   - '&eisu_kana'
-  - BS
+  - {t: BS, s: DEL}
   - {t: ENTER, h: Cursor Layer_MacBook}
   - Sft+Gui+4
   - LEFT GUI
@@ -102,11 +102,11 @@ layers:
   - F11
   - {t: '&Windowright', type: held}
   - Ctl+DOWN ARROW
-  - Gui+LEFT ARROW
+  - {t: Gui+LEFT ARROW, h: Gui+Sft+LEFT ARROW}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Gui+RIGHT ARROW
+  - {t: Gui+RIGHT ARROW, h: Gui+Sft+RIGHT ARROW}
   - {t: Gui+Z, h: LSHFT}
   - Gui+Sft+Z
   - ''
