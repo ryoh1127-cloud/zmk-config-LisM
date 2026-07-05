@@ -250,13 +250,13 @@
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
             bindings = <&kp LGUI>, <&kp TAB>; // 1つ目がホールド(Cmd)、2つ目が連打用(Tab)
-         // ignored-key-positions = <1>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
+         // ignored-key-positions = <8>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
         };
         win_swapper: win_swapper {
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
             bindings = <&kp LALT>, <&kp TAB>; 
-         // ignored-key-positions = <1>;
+         // ignored-key-positions = <8>;
         };
     };
 
