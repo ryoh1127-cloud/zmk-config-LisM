@@ -252,6 +252,12 @@
             bindings = <&kp LGUI>, <&kp TAB>; // 1つ目がホールド(Cmd)、2つ目が連打用(Tab)
          // ignored-key-positions = <1>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
         };
+        win_swapper: win_swapper {
+            compatible = "zmk,behavior-smart-toggle";
+            #binding-cells = <0>;
+            bindings = <&kp LALT>, <&kp TAB>; 
+         // ignored-key-positions = <1>;
+        };
     };
 
     combos {
@@ -398,7 +404,7 @@
         layer_2 {
             display-name = "Cursor Layer_MacBook";
             bindings = <
-&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                                 &kp LG(Q)                              &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &missionControl
+&kp PAGE_UP      &kp PAGE_DOWN  &WindowMaximize  &none         &kp LC(UP_ARROW)                                 &kp LG(Q)                              &kp LC(LEFT_ARROW)  &kp UP          &kp LC(RIGHT_ARROW)  &mac_swapper
 &trans           &WindowLeft    &kp F11          &Windowright  &kp LC(DOWN_ARROW)                               &mt LG(LS(LEFT_ARROW)) LG(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &mt LG(LS(RIGHT_ARROW)) LG(RIGHT_ARROW)
 &mt LSHFT LG(Z)  &kp LG(LS(Z))  &none            &none         &kp LG(Q)                                        &copy_paste_mac                        &kp LS(LC(TAB))     &kp LG(W)       &kp LC(TAB)          &kp LG(Q)
 &trans           &trans         &trans           &trans        &trans              &kp LG(BACKSPACE)    &trans  &trans                                 &trans              &trans          &trans               &kp LG(LS(NUMBER_4))
@@ -410,7 +416,7 @@
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &mac_swapper
+&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &win_swapper
 &trans                &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &kp LG(D)                          &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
 &mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                         &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
 &trans                &trans                  &trans              &trans                   &kp TAB      &alldelete    &trans  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
