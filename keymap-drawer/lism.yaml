@@ -139,7 +139,7 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - ↑
   - Ctl+Gui+RIGHT ARROW
-  - '&window_tab'
+  - '&mac_swapper'
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT ARROW
   - Gui+DOWN ARROW
