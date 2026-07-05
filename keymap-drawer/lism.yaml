@@ -80,7 +80,7 @@ layers:
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
   - '&eisu_kana'
-  - BS
+  - {t: BS, s: DEL}
   - {t: ENTER, h: Cursor Layer_Windows}
   - Sft+Gui+4
   - LEFT ALT
@@ -157,7 +157,7 @@ layers:
   - Alt+F4
   - '&copy_paste_win'
   - Sft+Ctl+TAB
-  - {t: Gui+W, h: Alt+F4}
+  - {t: Ctl+W, h: Alt+F4}
   - Ctl+TAB
   - Alt+F4
   - {t: ▽, type: trans}
