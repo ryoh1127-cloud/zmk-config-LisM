@@ -245,6 +245,13 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+// 「マック・スワッパー」の定義
+        mac_swapper: mac_swapper {
+            compatible = "zmk,behavior-smart-toggle";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI>, <&kp TAB>; // 1つ目がホールド(Cmd)、2つ目が連打用(Tab)
+         // ignored-key-positions = <1>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
+        };
     };
 
     combos {
@@ -403,7 +410,7 @@
         layer_3 {
             display-name = "Cursor Layer_Windows";
             bindings = <
-&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &window_tab
+&kp PAGE_UP           &kp PAGE_DOWN           &kp LG(UP_ARROW)    &none                    &kp LG(TAB)                        &kp LA(F4)       &kp LC(LG(LEFT_ARROW))  &kp UP          &kp LC(LG(RIGHT_ARROW))  &mac_swapper
 &trans                &kp LG(LS(LEFT_ARROW))  &kp LG(DOWN_ARROW)  &kp LG(LS(RIGHT_ARROW))  &kp LG(D)                          &kp HOME         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
 &mt LEFT_SHIFT LC(Z)  &kp LC(Y)               &none               &none                    &kp LA(F4)                         &copy_paste_win  &kp LS(LC(TAB))         &kp LC(W)       &kp LC(TAB)              &kp LA(F4)
 &trans                &trans                  &trans              &trans                   &kp TAB      &alldelete    &trans  &trans           &trans                  &trans          &trans                   &kp LG(LS(S))
