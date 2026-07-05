@@ -172,7 +172,7 @@
             label = "COPY_PASTE_MAC";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mt LG(X) LG(C)>, <&kp LG(V)>;
+            bindings = <&mt LG(V) LG(C)>, <&kp LG(X)>;
         };
 
         copy_paste_win: copy_paste_win {
@@ -180,7 +180,7 @@
             label = "COPY_PASTE_WIN";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mt LC(X) LC(C)>, <&kp LC(V)>;
+            bindings = <&mt LC(V) LC(C)>, <&kp LC(X)>;
         };
 
         missionControl: missionControl {
@@ -245,18 +245,23 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-// 「マック・スワッパー」の定義
+
+        // 「マック・スワッパー」の定義
+
         mac_swapper: mac_swapper {
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
-            bindings = <&kp LGUI>, <&kp TAB>; // 1つ目がホールド(Cmd)、2つ目が連打用(Tab)
-         // ignored-key-positions = <8>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
+            bindings = <&kp LGUI>, <&kp TAB>;
+ // 1つ目がホールド(Cmd)、2つ目が連打用(Tab)
+            // ignored-key-positions = <8>;     // 隣のキー（逆送り用）を指定。※環境に合わせて番号を調整してください
         };
+
         win_swapper: win_swapper {
             compatible = "zmk,behavior-smart-toggle";
             #binding-cells = <0>;
-            bindings = <&kp LALT>, <&kp TAB>; 
-         // ignored-key-positions = <8>;
+            bindings = <&kp LALT>, <&kp TAB>;
+
+            // ignored-key-positions = <8>;
         };
     };
 
