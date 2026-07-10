@@ -264,6 +264,15 @@
 
             // ignored-key-positions = <8>;
         };
+
+        eisu_kanakirikae: eisu_kanakirikae {
+            compatible = "zmk,behavior-mod-morph";
+            label = "EISU_KANAKIRIKAE";
+            bindings = <&lt 6 LANGUAGE_1>, <&kp LANGUAGE_2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+        };
     };
 
     combos {
@@ -378,6 +387,12 @@
             bindings = <&mo 7>;
             key-positions = <30 31>;
         };
+
+        MB3 {
+            bindings = <&mkp MB3>;
+            key-positions = <18 19>;
+            layers = <0 1 8>;
+        };
     };
 
     keymap {
@@ -386,10 +401,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W         &kp E                    &kp R            &kp T                                    &kp Y        &kp U           &lt 15 I      &lt 9 O      &lt 11 P
-&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                    &kp H        &kp J           &kp K         &kp L        &mt LEFT_GUI MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                    &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kana    &mo_back_del  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
+&kp Q             &kp W         &kp E                    &kp R            &kp T                                           &kp Y        &kp U           &lt 15 I      &lt 9 O      &lt 11 P
+&mt LEFT_GUI A    &kp S         &kp D                    &lt 2 F          &kp G                                           &kp H        &kp J           &kp K         &kp L        &mt LEFT_GUI MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                    &kp V            &kp B                                           &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
+&mt LCTRL TAB     &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &mt LCTRL SPACE  &lt 4 SPACE  &eisu_kanakirikae    &mo_back_del  &lt 2 ENTER  &kp LS(LG(N4))  &kp LEFT_GUI  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -398,10 +413,10 @@
         layer_1 {
             display-name = "Default Layer_Windows";
             bindings = <
-&kp Q             &kp W         &kp E                 &kp R            &kp T                                    &kp Y        &kp U           &lt 16 I      &lt 10 O     &lt 12 P
-&mt LCTRL A       &kp S         &kp D                 &lt 3 F          &kp G                                    &kp H        &kp J           &kp K         &kp L        &mt LEFT_ALT MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                    &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
-&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kana    &mo_back_del  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
+&kp Q             &kp W         &kp E                 &kp R            &kp T                                           &kp Y        &kp U           &lt 16 I      &lt 10 O     &lt 12 P
+&mt LCTRL A       &kp S         &kp D                 &lt 3 F          &kp G                                           &kp H        &kp J           &kp K         &kp L        &mt LEFT_ALT MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V            &kp B                                           &kp N        &kp M           &kp COMMA     &kp DOT      &mt RIGHT_SHIFT SLASH
+&mt LEFT_ALT TAB  &kp LEFT_GUI  &mt LCTRL LANGUAGE_2  &mt LCTRL SPACE  &lt 5 SPACE  &eisu_kanakirikae    &mo_back_del  &lt 3 ENTER  &kp LS(LG(N4))  &kp LEFT_ALT  &kp JP_KANA  &lt 7 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -478,10 +493,10 @@
         layer_8 {
             display-name = "Mouse Layer";
             bindings = <
-&none   &none   &none   &none   &none                     &none   &none     &none     &none     &none
-&none   &none   &none   &none   &none                     &none   &mkp MB1  &mkp MB3  &mkp MB2  &none
-&none   &none   &none   &none   &none                     &none   &mkp MB4  &none     &mkp MB5  &none
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &none     &none
+&none   &none   &none   &none   &none                     &none   &none   &none   &none     &none
+&none   &none   &none   &none   &none                     &none   &none   &none   &mkp MB1  &mkp MB2
+&none   &none   &none   &none   &none                     &none   &none   &none   &mkp MB4  &none
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &none     &none
             >;
         };
 
