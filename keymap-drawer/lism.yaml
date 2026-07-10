@@ -36,7 +36,7 @@ layers:
   - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
-  - '&eisu_kana'
+  - {t: LANGUAGE 1, h: Number Layer, s: LANGUAGE 2}
   - {t: BS, s: DEL}
   - {t: ENTER, h: Cursor Layer_MacBook}
   - Sft+Gui+4
@@ -79,7 +79,7 @@ layers:
   - {t: LANGUAGE 2, h: LCTRL}
   - {t: SPACE, h: LCTRL}
   - {t: SPACE, h: Mark Layer}
-  - '&eisu_kana'
+  - {t: LANGUAGE 1, h: Number Layer, s: LANGUAGE 2}
   - {t: BS, s: DEL}
   - {t: ENTER, h: Cursor Layer_Windows}
   - Sft+Gui+4
@@ -251,7 +251,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - KP 0
   - {t: ▽, type: trans}
@@ -318,8 +318,9 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   - '&mkp MB1'
-  - '&mkp MB3'
   - '&mkp MB2'
   - ''
   - ''
@@ -328,9 +329,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MB4'
   - ''
-  - '&mkp MB5'
+  - '&mkp MB4'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -699,3 +699,6 @@ combos:
   l: [Default Layer_Windows]
 - p: [30, 31]
   k: Device Layer
+- p: [18, 19]
+  k: '&mkp MB3'
+  l: [Default Layer, Default Layer_Windows, Mouse Layer]
