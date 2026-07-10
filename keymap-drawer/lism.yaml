@@ -699,5 +699,3 @@ combos:
   l: [Default Layer_Windows]
 - p: [30, 31]
   k: Device Layer
-- p: [18, 19]
-  k: '&mkp MB3'
