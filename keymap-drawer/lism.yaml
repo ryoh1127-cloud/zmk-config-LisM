@@ -701,4 +701,3 @@ combos:
   k: Device Layer
 - p: [18, 19]
   k: '&mkp MB3'
-  l: [Default Layer, Default Layer_Windows, Mouse Layer]
