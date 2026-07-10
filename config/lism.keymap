@@ -387,11 +387,6 @@
             bindings = <&mo 7>;
             key-positions = <30 31>;
         };
-
-        MB3 {
-            bindings = <&mkp MB3>;
-            key-positions = <19 18>;
-        };
     };
 
     keymap {
